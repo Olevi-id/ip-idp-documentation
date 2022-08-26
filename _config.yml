@@ -41,9 +41,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include:
-  - _pages
-
 collections:
   pages:
     output: true
