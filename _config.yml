@@ -45,7 +45,9 @@ include:
   - _pages
 
 collections:
-  General:
+  pages:
+    output: true
+    permalink: /:collection/:path/
     order:
       - general/identityProvider.md
 
