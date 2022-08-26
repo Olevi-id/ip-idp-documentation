@@ -4,7 +4,7 @@
 
 layout: home
 ---
-WeAre Solutions Identity Provider is OIDC/SAML2 compatible implementation, based on [Shibboleth IdP](https://shibboleth.atlassian.net/) open source software.
+[WeAre Solutions](https://www.weare.fi/) Identity Provider is OIDC/SAML2 compatible implementation, based on [Shibboleth IdP](https://shibboleth.atlassian.net/) open source software.
 
 During the span of few years, the solution has evolved based on discussions and experience on clients’ needs. The solution is modular, container based and driven by thoroughly developed and constantly improving devOps automation.
 
