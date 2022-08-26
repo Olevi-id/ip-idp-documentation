@@ -14,9 +14,12 @@ github_username:
  
 
 # Build settings
+theme: jekyll-theme-minimal
 remote_theme: sighingnow/jekyll-gitbook
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -45,10 +48,14 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
-    order:
-      - general/identityProvider.md
 
 toc:
   enabled: true
   h_min: 1
   h_max: 3
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
