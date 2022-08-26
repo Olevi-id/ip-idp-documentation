@@ -12,8 +12,9 @@ email: support@weare.fi
 #  Google search results) and in your feed.xml site description.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.karilaalo.fi/ip-idp-documentation/" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+twitter_username: 
+github_username: 
+ 
 
 # Build settings
 remote_theme: sighingnow/jekyll-gitbook
