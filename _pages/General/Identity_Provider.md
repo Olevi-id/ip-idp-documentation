@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Identity Provider Implementation
 ---
 Identity Provider (IdP) is an authentication server providing Relying Parties (RP) i.e. services or applications a mean of authenticating users. With an IdP a service provider can outsource authentication processes to an external entity instead of creating and maintaining those processes with the business application.
