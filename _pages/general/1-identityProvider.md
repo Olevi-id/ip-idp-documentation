@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Identity Provider Implementation
+title: 1. Identity Provider Implementation
 ---
 Identity Provider (IdP) is an authentication server providing Relying Parties (RP) i.e. services or applications a mean of authenticating users. With an IdP a Service Provider can outsource authentication processes to an external entity instead of creating and maintaining those processes with the business application.
 
@@ -14,9 +14,9 @@ There are currently two major protocols to exchange authentication information b
 
 There exists also others, older or otherwise obsolete or narrow margin protocols. To mention few:
 
-* Kerberos
+* [Kerberos](https://en.wikipedia.org/wiki/Kerberos_(protocol))
 * Central Authentication Service ([CAS](https://en.wikipedia.org/wiki/Central_Authentication_Service))
-* Radius
+* [Radius](https://en.wikipedia.org/wiki/RADIUS)
 
 ### Strong Specifications
 
