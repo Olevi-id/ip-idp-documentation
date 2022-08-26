@@ -32,7 +32,7 @@ In the center of the two major protocols is the Single Sign On (SSO) capability.
 
 ## Authentication Methods
 
-The IdP implements the processes and protocol exchange between itself and the RPs. The IdP is equipped with different kind of authentication methods.
+The IdP implements the processes for authentication and protocol exchange between itself and the RPs. The IdP is equipped with different kind of authentication methods.
 
 Username and password are known as traditional authentication methods, although currently considered bad practice.
 
