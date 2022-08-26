@@ -44,7 +44,7 @@ plugins:
 collections:
   General:
     order:
-      - Identity_Provider.md
+      - general/identityProvider.md
 
 toc:
   enabled: true
