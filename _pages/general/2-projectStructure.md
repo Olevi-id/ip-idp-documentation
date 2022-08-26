@@ -25,7 +25,7 @@ The levels contain sub-projects implemented with respective technologies. The De
 
 The service offering can be ammended with a Service Center option that provides support, monitoring and maintenance of the service product.
 
-![project three layered structure illustrated](/assets/img/maven-project-layout.svg)
+![Three layered structure of the illustrated](../../../assets/img/maven-project-layout.svg)
 
 ## Types of Customers
 
