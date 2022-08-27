@@ -60,6 +60,25 @@ IdP instance that you will be using publishes its metadata for your RP to consum
 
 You will configure this endpoint URL in your RP instance. Most often regarding the metadata exchange, you don't need to do anything else but enter your _client_id_, _client_secret_ and the IdP metadata URL to your RP configuration and you are good to go.
 
+#### IdP Key Material
+
+It is important to note that currently the IdP has two potential ways of managing secret key material. Here we refer to keys that are used to secure OIDC authentication protocol level message exchange. The keys are either:
+
+1. static
+    * Static key is defined per instance and remains the same over instance node restarts. The key rollover will be specifically planned, communicated and scheduled with the clients prior the change.
+    * Static keys provide good continuity for production instances.
+2. changing
+    * Changing key is initialised fro scratch each time during the instance node warm up. In theory
+    * Changing keys are most usually used in development, testing or QA-enviornments. They are not very good choice to be used in production environments.
+
+However the key material management is chosen to be done, the RP clients should be implemented so that they rely on key material that is dynamically loaded from IdPs metadata. The metadata document referers to the public keyset of the IdP which the RP can use to authenticate protocol message exchange.
+
+This is practical industry standard of how OIDC is used in the Internet that we follow. There are controls to this, but RP client implementor should make extra effort to ensure that:
+
+* Domain Name ServiceSystem ([DNS](https://en.wikipedia.org/wiki/Domain_Name_System)) service of the client is bullet proof
+* Man-in-the-Middle ([MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)) attacks are very well controlled
+    * espceially on the platform level of the application
+
 ## RP Installation
 
 Finally, you need an RP that protects you application. Your RP connects to the IdP requesting for user authentication.
