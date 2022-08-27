@@ -18,7 +18,6 @@ remote_theme: sighingnow/jekyll-gitbook
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
