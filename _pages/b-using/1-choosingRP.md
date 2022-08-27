@@ -18,11 +18,11 @@ This is so important that we want to dedicate a complete sub-section for this. O
 
 This is where things may fail severly. Even though OIDC, JSON and [JWT](https://www.rfc-editor.org/rfc/rfc7519) are fairly simple, the protocols and specifications define quite detailed **security** and **privacy controls**.
 
-OIDC is simple in a sense that developers can get their implementations working quite easily and then they think that _it just works_ and move on to next problem. When _it just works_, it is not said that it implements the **security controls** that are bakes deep in the specifications.
+OIDC is simple in a sense that developers can get their implementations working quite easily and then they think that _it just works_ and move on to next problem. When _it just works_, it is not said that it implements the **security controls** that are baked deep in the specifications.
 
 With this in mind, if you had initial thought that you will implement your own OIDC client, please give it another thought. There is multitude of thoroughly implemented products already. What makes you think that your own implementation would be at all better or **secure**?
 
-One *better* step forward from the thought of writing your own is to use a ready library or the functionality already in the dvelopment framework or coding platform that you are using. However, even with those, you should make sure that you are using the authentication functionalities to their full extent when it comes to securing your application.
+One *better* step forward from the thought of writing your own is to use a ready library or the functionality already in the development framework or coding platform that you are using. However, even with those, you should make sure that you are using the authentication functionalities to their full extent when it comes to securing your application.
 
 Now, sorry about the rant and let's move forward.
 
