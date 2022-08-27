@@ -8,7 +8,7 @@ Subsequent pages contain general information of the Implementation.
 
 In this documentation we try not to repeat detailed information that is already detailed elsewhere. In aspects, where better detailed information can be found in standard specifications or widely trusted party, link to that documentation is included. We try to make links as specific as possible. Where referred documentation facilitates it, exact chapter or another anchor in the text is included. If this is not possible, we try to add exact textual reference in connection to the link.
 
-Internet is dynamic and evolving thing and while semantic web has not really realised, links fail sometimes. If you find broken linke, please help us to fix them with [Pull Requests](https://github.com/klaalo/ip-idp-documentation/pulls) or [contact us](https://www.weare.fi/en/contact-page/).
+Internet is dynamic and evolving thing and while semantic web has not really realised, links fail sometimes. If you find broken links, please help us to fix them with [Pull Requests](https://github.com/klaalo/ip-idp-documentation/pulls) or [contact us](https://www.weare.fi/en/contact-page/).
 
 ## Clarification of Used Terms
 
@@ -16,7 +16,7 @@ We try to follow mainly terms defined in [OIDC Specification](https://openid.net
 
 ### IdP
 
-We refer to the IdP service an instance of an IdP entity and in some situations your own deployment as the _IdP_, although in OpenId Connect terms the entity performing the authentication of the users is referred with term _OpenId Provider (OP)_. The term IdP dates back to older times when SAML2 was the prominent protocol for authentication. For concistency we still use the old term in this documentation although it most often refers to _OIDC OP_.
+We refer to the IdP service as an instance of an IdP entity and in some situations your own deployment as the _IdP_, although in OpenId Connect terms the entity performing the authentication of the users is referred with term _OpenId Provider (OP)_. The term IdP dates back to older times when SAML2 was the prominent protocol for authentication. For concistency we still use the old term in this documentation although it most often refers to _OIDC OP_.
 
 ### RP or Rp
 
