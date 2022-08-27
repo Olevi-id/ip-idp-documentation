@@ -2,7 +2,7 @@
 layout: post
 title: x) Appendices
 ---
-In this chapter we will add extra information that we did not find bette chapter for. Initially this chapter has only this fornt page.
+In this chapter we will add extra information that we did not find better chapter for. Initially this chapter has only this front page, but other pages will possibly be added later.
 
 ## Security
 
