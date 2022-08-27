@@ -48,28 +48,28 @@ Spring project provides [code samples](https://github.com/spring-projects/spring
 
 **TO BE REFINED**
 
-[.NET](https://dotnet.microsoft.com/) seems to be Free, Cross-Platform, Open Source developer platform that developer can benefit to build apps for Andoid, iOS, macOS and Windows from a single codebase. [C Sharp](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), also known as C# is a general-purpose, multi-paradigm programmin language to write applications in .NET environment and apparently also in others.
+[.NET](https://dotnet.microsoft.com/) seems to be Free, Cross-Platform, Open Source developer platform that developer can benefit to build apps for Andoid, iOS, macOS and Windows from a single codebase. [C Sharp](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), also known as C# is a general-purpose, multi-paradigm programming language to write applications in .NET environment and apparently also in others.
 
 The simple guides an [tutorials](https://www.w3schools.com/cs/index.php) available show that the platform is vivid and strongly living.
 
-As we don't curently have good references to C# libraries or implementations, we just save you the bourden of inernet searches and list some references:
+As we don't curently have good references to C# libraries or implementations, we just save you the bourden of internet searches and list some references:
 
 * [OpenID Connect Client Library for native Applications](https://github.com/IdentityModel/IdentityModel.OidcClient)
 
-That seems to be a short list. However, ASP.NET Core [documents](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/social-without-identity?source=recommendations&view=aspnetcore-6.0) the ability to provide authentication based on commonly known authentication providers available in the Internet. If this is possible, it should be quite easy to implement OIDC Client with ASP.NET Core services as well.
+That seems to be a short list. However, ASP.NET Core [documents](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/social-without-identity?source=recommendations&view=aspnetcore-6.0) an ability to provide authentication based on commonly known authentication providers available in the Internet. If this is possible, it should be quite easy to implement OIDC Client with ASP.NET Core services as well.
 
 
 **TO BE REFINED**
 
-This section contains citations from background materials that the links point to. As might be evident, this section is initially written by a Java [Boomer](https://en.wikipedia.org/wiki/OK_boomer) and we hope that an actual C# developer would refine this section to be more accurate and usefull.
+This section contains citations from background materials that the links point to. As might be evident, this section is initially written by a Java [Boomer](https://en.wikipedia.org/wiki/OK_boomer) and we hope that an actual C# developer would refine this section to be more accurate and useful.
 
-Now, by looking the .NET platform, it seems to be locked in and not very well standards based. By locked in, it is referred that the ASP.NET documentation doesn't describe a way to openly connect to *ANY* identity provider, but only to those recommended by the platform.
+Now, by looking the .NET platform, it seems to be locked in and not very well standards based. By locked in, it is referred that the ASP.NET documentation doesn't describe a way to openly connect to identity providers *in general*, but only to those recommended by the platform.
 
 This section need to be refined by a developer that has better understanding of the platform.
 
 > **Content Warning: off topic, potentially political**
 >
-> We also need to add that we don't consider the term _Boomer_ offending, but we are proud of it [as in a reference](https://yle.fi/news/3-12158507) to what is happening in the world at the time of writing this. Negative influencers have been trying to use the term to conguer western socities by dividing them with false news. In those discussions this term has had some bad connotation without a reason.
+> We also need to add that we don't consider the term _Boomer_ offending, but we are proud of it [as in a reference](https://yle.fi/news/3-12158507) to what is happening in the world at the time of writing this. Negative influencers have been trying to use the term to conguer western socities by dividing them with crafted fairy tales. In those discussions this term has had some bad connotation without a reason.
 >
 > Also, Slava Ukraini 🇺🇦
 
