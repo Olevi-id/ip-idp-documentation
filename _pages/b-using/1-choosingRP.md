@@ -2,9 +2,13 @@
 layout: post
 title: 1. Choosing an RP Product
 ---
-As said in previous chapter, there are multitude of products and implementaations available for OIDC. You should start your journey from the [list of certified products and implementations](https://openid.net/developers/certified/).
+As said in previous chapter, there are multitude of products and implementations available for OIDC. You should start your journey from the [list of certified products and implementations](https://openid.net/developers/certified/).
 
 Also, if still planning on relying on SAML, there also is very wide range of different solutions.
+
+Following sections that present RP solutions contain huge amount of details. We don't repeat all technical details here, so please follow the provided links if mentioned terms sound unfamiliar. Also, we don't currently give an example code snippets on how to configure recommended solutions. Most implementations provide the code snippets already.
+
+We are planning in publishing a demonstration template implementations that you could use as starting point for your application if such can't easily be found yet.
 
 First things first, there is an important announcement that we need to make:
 
@@ -26,8 +30,47 @@ We will give few examples of possible products to use as Relying Party RP implem
 
 ## Apache HTTPD & mod_authn_openidc
 
-Hans Zanbelt has written very good implementation of OIDC RP, the [mod_auhn_openidc](https://github.com/zmartzone/mod_auth_openidc). [Hans Zanbelt](https://github.com/zandbelt) is widely respected specialist it the field and provides support for the product through his [company](https://zmartzone.eu).
+[Hans Zanbelt](https://github.com/zandbelt) has written very good implementation of OIDC RP, the [mod_auhn_openidc](https://github.com/zmartzone/mod_auth_openidc). Hans Zanbelt is widely respected specialist in the field and provides support for the product through his [company](https://zmartzone.eu).
 
-mod_authn_openics plugs in to [Apache HTTPD](https://httpd.apache.org) Web server that [can function](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) fairly efficiently as authentication [reverse](https://en.wikipedia.org/wiki/Reverse_proxy) HTTP Proxy.
+mod_authn_openidc plugs in to [Apache HTTPD](https://httpd.apache.org) Web server that [can function](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) fairly efficiently as authenticating [reverse](https://en.wikipedia.org/wiki/Reverse_proxy) HTTP Proxy.
 
-Make note that previous paragraphs contein huge amount of details. We don't repeat all technical details here, but please follow the provided links.
+The mod_authn_openidc project already has very good configuration documentation and example configuration snippets that you can use to get your project started.
+
+## Spring Framework and Spring Security
+
+If Java is your language, [Spring Framework](https://spring.io/projects/spring-framework) is very likely your platform. [Spring Security](https://spring.io/projects/spring-security) adds [OAuth2 and OIDC support](https://docs.spring.io/spring-security/site/docs/5.2.0.RELEASE/reference/htmlsingle/#oauth2) to applications that are written in Java with Spring.
+
+If you are only just starting your application, [Spring Boot](https://spring.io/projects/spring-boot) is very quick way of putting up your software project. There is even an [initialiser web site](https://start.spring.io) that helps you define your project specification files ([Maven](https://maven.apache.org) POM).
+
+Spring project provides [code samples](https://github.com/spring-projects/spring-security/tree/5.2.0.RELEASE/samples/boot/oauth2login) that you can start with to integrate your application to external authentication.
+
+## .NET and C#
+
+**TO BE REFINED**
+
+[.NET](https://dotnet.microsoft.com/) seems to be Free, Cross-Platform, Open Source developer platform that developer can benefit to build apps for Andoid, iOS, macOS and Windows from a single codebase. [C Sharp](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), also known as C# is a general-purpose, multi-paradigm programmin language to write applications in .NET environment and apparently also in others.
+
+The simple guides an [tutorials](https://www.w3schools.com/cs/index.php) available show that the platform is vivid and strongly living.
+
+As we don't curently have good references to C# libraries or implementations, we just save you the bourden of inernet searches and list some references:
+
+* [OpenID Connect Client Library for native Applications](https://github.com/IdentityModel/IdentityModel.OidcClient)
+
+That seems to be a short list. However, ASP.NET Core [documents](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/social-without-identity?source=recommendations&view=aspnetcore-6.0) the ability to provide authentication based on commonly known authentication providers available in the Internet. If this is possible, it should be quite easy to implement OIDC Client with ASP.NET Core services as well.
+
+
+**TO BE REFINED**
+
+This section contains citations from background materials that the links point to. As might be evident, this section is initially written by a Java [Boomer](https://en.wikipedia.org/wiki/OK_boomer) and we hope that an actual C# developer would refine this section to be more accurate and usefull.
+
+Now, by looking the .NET platform, it seems to be locked in and not very well standards based. By locked in, it is referred that the ASP.NET documentation doesn't describe a way to openly connect to *ANY* identity provider, but only to those recommended by the platform.
+
+This section need to be refined by a developer that has better understanding of the platform.
+
+> **Content Warning: off topic, potentially political**
+>
+> We also need to add that we don't consider the term _Boomer_ as offensive, but we are proud of it [as in a reference](https://yle.fi/news/3-12158507) to what is happening in the world at the time of writing this. Negative influencers have been trying to use the term to conguer western socities by dividing them with false news. In those discussions this term has had some bad connotation without a reason.
+>
+> Also, Slava Ukraini 🇺🇦
+
+**TO BE REFINED**
