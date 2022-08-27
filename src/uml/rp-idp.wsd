@@ -1,0 +1,9 @@
+@startuml rp-idp
+left to right direction
+
+object Rp
+object IdP
+
+Rp --|> IdP
+
+@enduml

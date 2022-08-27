@@ -1,0 +1,11 @@
+@startuml idp-metadata-exchange
+
+object IdP
+   IdP : .well-known/openid-configuration
+object Rp
+   Rp : offline registration
+
+IdP <|-- Rp : https
+Rp <|-- IdP : offline
+
+@enduml
