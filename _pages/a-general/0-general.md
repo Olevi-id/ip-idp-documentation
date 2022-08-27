@@ -28,3 +28,10 @@ In illustrations _RP_ is written with lowercase _p_ (Rp). This is because of a t
 
 In some situations the terms _RP_, _SP_, or _PEP_ might be used interchangeably. The term _Policy Enforcement Point (PEP)_ also refers to a technical entity, product or implementation that protects the access to application by predefined policies. As the purpose of all these are somewhat similar, these terms appear in similar use although according to a case in hand with a slightly different context. 
 
+## Documentation Source Code
+
+This book is created by Documentation as Code. The source code of the documentation is available in [GitHub](https://github.com/klaalo/ip-idp-documentation) for adding [Issues](https://github.com/klaalo/ip-idp-documentation/issues) and [Pull Requests](https://github.com/klaalo/ip-idp-documentation/pulls).
+
+Where convenient, illustrations are created with [PlantUml](https://plantuml.com).
+
+Please, save trees, **don't print**. We expect that this documentation evolves through the time and your printed copy gets old very quickly. Also, paper is made of trees and we love trees. Don't cut them, but let them harvest excess CO<sup>2</sup> from the atmosphere.
