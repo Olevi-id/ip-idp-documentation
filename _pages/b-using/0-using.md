@@ -20,7 +20,7 @@ Currently, to purchase your instance and/or library license, contact [WeAre Sale
 
 ## Registration
 
-While negotiationg of your purchase, registration of your Relying Party (RP) will be mentioned. You will enter necessary technical details of your environment, which form your client entity on the IdP instance. In exchange you will receive details on how to fetch technical details of the IdP instance to add in your deployment.
+While negotiating of your purchase, registration of your Relying Party (RP) will be mentioned. You will enter necessary technical details of your environment, which form your client entity on the IdP instance. In exchange you will receive details on how to fetch technical details of the IdP instance to add in your deployment.
 
 ## Metadata Exchange
 
@@ -58,4 +58,4 @@ IdP instance that you will be using publishes its metadata for your RP to consum
 
 [https://weare-staging.idp.youridentityplatform.biz/.well-known/openid-configuration](https://weare-staging.idp.youridentityplatform.biz/.well-known/openid-configuration)
 
-You will configure this endpoint URL in your RP instance and most often besides of your _client_id_, _client_secret_ and the metadata UDR
+You will configure this endpoint URL in your RP instance. Most often regarding the metadata exchange, you don't need to do anything else but enter your _client_id_, _client_secret_ and the IdP metadata URL to your RP configuration and you are good to go.
