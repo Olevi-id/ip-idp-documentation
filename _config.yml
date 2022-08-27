@@ -14,7 +14,6 @@ github_username:
  
 
 # Build settings
-theme: jekyll-theme-minimal
 remote_theme: sighingnow/jekyll-gitbook
 
 plugins:
