@@ -59,3 +59,13 @@ IdP instance that you will be using publishes its metadata for your RP to consum
 [https://weare-staging.idp.youridentityplatform.biz/.well-known/openid-configuration](https://weare-staging.idp.youridentityplatform.biz/.well-known/openid-configuration)
 
 You will configure this endpoint URL in your RP instance. Most often regarding the metadata exchange, you don't need to do anything else but enter your _client_id_, _client_secret_ and the IdP metadata URL to your RP configuration and you are good to go.
+
+## RP Installation
+
+Finally, you need an RP that protects you application. Your RP connects to the IdP requesting for user authentication.
+
+It is highly probable that you don't even need to do actual installation or deployment as OIDC is so widely accepted that the application, product, API Gateway or some other achitectural component already implements OIDC support in your environment.
+
+However, in next chapters we provide some recommendations and examples of a products or software thet you can use as the RP implementattion if you don't already have one available.
+
+Also, before taking any advice, you should see the [list of certified products and implementations](https://openid.net/developers/certified/).
