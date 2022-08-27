@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using the IdP
+title: b) Using the IdP
 ---
 Using the IdP requires following things from the customer:
 1. agreement
@@ -54,9 +54,8 @@ Within your client metadata on the IdP _client_id_ and _client_secret_ are set. 
 
 #### IdP metadata on your client RP
 
-IdP instance that you will be using publishes its metadata for your RP to consume so that your RP can form trusted and confidential connection with the IdP. As defined in the specification, you can find the IdP metadata from a well-known endpoint. For example, in WeAre Staging IdP the metadata URL is following:
+IdP instance that you will be using publishes its metadata for your RP to consume so that your RP can form trusted and confidential connection with the IdP. As [defined in the specification](https://openid.net/specs/openid-connect-discovery-1_0.html), you can find the IdP metadata from a well-known endpoint. For example, in WeAre Staging IdP the metadata URL is following:
 
 [https://weare-staging.idp.youridentityplatform.biz/.well-known/openid-configuration](https://weare-staging.idp.youridentityplatform.biz/.well-known/openid-configuration)
 
-
-
+You will configure this endpoint URL in your RP instance and most often besides of your _client_id_, _client_secret_ and the metadata UDR
