@@ -1,5 +1,5 @@
 ---
 layout: post
-title: g) Benefits in Using the IdP
+title: g) Benefits in Using an IdP
 ---
 placeholder
