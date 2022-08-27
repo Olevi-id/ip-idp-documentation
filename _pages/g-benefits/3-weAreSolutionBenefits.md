@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2. Choosing WeAre Solutions Implementation over Others
+title: 3. Choosing WeAre Solutions Implementation over Others
 ---
 Placeholder for USPs
 
