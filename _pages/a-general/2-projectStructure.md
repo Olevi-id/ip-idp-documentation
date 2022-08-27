@@ -35,5 +35,5 @@ Above illustration presents two types of IdP:
    * SaaS Customer purchaces a package of the solution including the logic and processes in deploying and managing IdP in completion or in limited setup
    * There is a recommended architecture in deploying the service to use, but IdP is possible to be deployed in variety of platforms. However, the complexity of the platform affects in costs of running the service.
 * Library Customer
-   * Library customer purchaces only some or just one module of IdP. They and deploy and manage the service deployment themselves.
+   * Library customer purchace only a module or multiple modules to add functionality to their own IdP. They install, manage and hold every maintenance aspect of the IdP service themselves.
    * Extensive knowledge and experience is needed to run IdP independently. However, consultation is available not only by the library vendor, but many other [commercial support partners](https://www.shibboleth.net/support/) as well.
