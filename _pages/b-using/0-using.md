@@ -8,7 +8,7 @@ Using the IdP requires following things from the customer:
 3. metadata exchange
 4. RP installation (PEP)
 
-The purchase and deployment doesn't always happen exactly in this order and there may be separate phases in deployment where particular details are clarified back and forth more thoroughly during the deployment. IAM (Identity and Access Management) may contain complex details and it is usually better to split large problems in to smaller pieaces and resolve them one by one at a time.
+The purchase and deployment doesn't always happen exactly in this order and there may be separate phases in deployment where particular details are clarified back and forth more thoroughly during the deployment. IAM (Identity and Access Management) may contain complex details and it is usually better to split large problems in to smaller pieaces and resolve them one piece at a time.
 
 ## Agreement
 
