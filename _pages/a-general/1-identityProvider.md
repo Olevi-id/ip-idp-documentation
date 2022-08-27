@@ -24,7 +24,7 @@ There exists also others, older or otherwise obsolete or narrow margin protocols
 * Central Authentication Service ([CAS](https://en.wikipedia.org/wiki/Central_Authentication_Service))
 * [Radius](https://en.wikipedia.org/wiki/RADIUS)
 
-These or other protocols are not in the scope of WeAre Solutions IdP service, but WeAre is very powerfull copany and can provide a multitude of services. Abcense of the protocols in this implenentation out of the box doesn't mean they could not be covered with some other implementation or adjustement to this implementation.
+These or other protocols are not in the scope of WeAre Solutions IdP service, but WeAre is very powerful copany and can provide a multitude of services. Abcense of the protocols in this implenentation out of the box doesn't mean they could not be covered with some other implementation or adjustement to this implementation.
 
 ### Strong Specifications
 
