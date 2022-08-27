@@ -14,7 +14,7 @@ First things first, there is an important announcement that we need to make:
 
 ## Do Not Plan on Writing Your Own
 
-This is so important that we want to dedicate a complete sub-section for this. OIDC is fairly simple to implement. We see it very often that developers take the product reference documentation and start coding their own implementation. Sometimes even IdP product vendors call their IdP as _authentication API_ where the service developer is thought to connect.
+This is so important that we want to dedicate a complete sub-section for this. OIDC is fairly simple to implement. We see it often that developers take the product reference documentation and start coding their own implementation. Sometimes even IdP product vendors call their IdP as _authentication API_ where the service developer is thought to connect.
 
 This is where things may fail very severly. Even though OIDC, JSON and [JWT](https://www.rfc-editor.org/rfc/rfc7519) are fairly simple, the protocols and specifications define quite detailed **security** and **privacy controls**.
 
