@@ -67,10 +67,4 @@ Now, by looking the .NET platform, it seems to be locked in and not very well st
 
 This section need to be refined by a developer that has better understanding of the platform.
 
-> **Content Warning: off topic, potentially political**
->
-> We also need to add that we don't consider the term _Boomer_ offending, but we are proud of it [as in a reference](https://yle.fi/news/3-12158507) to what is happening in the world at the time of writing this. Negative influencers have been trying to use the term to conguer western socities by dividing them with crafted fairy tales. In those discussions this term has had some bad connotation without a reason.
->
-> Also, Slava Ukraini 🇺🇦
-
 **TO BE REFINED**
