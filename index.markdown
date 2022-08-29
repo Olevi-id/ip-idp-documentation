@@ -13,4 +13,4 @@ Source code and hosting of this documentation is at [GitHub](https://github.com/
 
 Browse the documentation using table of contents on the left. If it is not visible (in small screens), click the menu button on top left corner.
 
-Next chapter: [a) General](./_pages/a-general/)
+Next chapter: [a) General](./pages/a-general/0-general/)
