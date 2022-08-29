@@ -7,4 +7,10 @@ During the span of few years, the solution has evolved based on discussions and 
 
 The IdP Solution, as its open source upstream big brother software product, is a reference implementation and a laboratory to research authentication mechanisms needed in commercial enterprises today. At WeAre our intention is to find the best match to client’s need based on our thorough experience. Whether the product is from our own keyboard or from a friend’s or partner’s, we value the effort equally. There is a tool for each task.
 
-This is a documentation project of the implementation. Source code and hosting of this documentation is at [GitHub](https://github.com/klaalo/ip-idp-documentation).
+## Using document pages
+
+Source code and hosting of this documentation is at [GitHub](https://github.com/klaalo/ip-idp-documentation). You can report issues or make pull requests to the documention in Github.
+
+Browse the documentation using table of contents on the left. If it is not visible (in small screens), click the menu button on top left corner.
+
+Next chapter: [a) General](./_pages/a-general/)
