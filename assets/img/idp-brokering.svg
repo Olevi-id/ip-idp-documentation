@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="318px" preserveAspectRatio="none" style="width:295px;height:318px;background:#FFFFFF;" version="1.1" viewBox="0 0 295 318" width="295px" zoomAndPan="magnify"><defs/><g><g id="elem_IdPA"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="124" x="164" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="208.5" y="22.5352">IdP A</text><line style="stroke:#181818;stroke-width:0.5;" x1="165" x2="287" y1="27.4883" y2="27.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="170" y="45.0234">Authn Method A</text></g><g id="elem_IdPB"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="122" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="51.5" y="22.5352">IdP B</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="128" y1="27.4883" y2="27.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="13" y="45.0234">Authn Method B</text></g><g id="elem_IdPBroker"><rect fill="#F1F1F1" height="61.4648" style="stroke:#181818;stroke-width:0.5;" width="206" x="44" y="129"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="114" y="144.5352">IdPBroker</text><line style="stroke:#181818;stroke-width:0.5;" x1="45" x2="249" y1="149.4883" y2="149.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="50" y="167.0234">"North: RP for AuthMethods"</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="50" y="183.5117">"South: IdP for RP Apps"</text></g><g id="elem_RpA"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="58" x="56" y="267"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="69.5" y="282.5352">RP A</text><line style="stroke:#181818;stroke-width:0.5;" x1="57" x2="113" y1="287.4883" y2="287.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="62" y="305.0234">Appl A</text></g><g id="elem_RpB"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="56" x="181" y="267"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="194" y="282.5352">RP b</text><line style="stroke:#181818;stroke-width:0.5;" x1="182" x2="236" y1="287.4883" y2="287.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="187" y="305.0234">Appl B</text></g><!--MD5=[547281b4165170ff5cf35d7551f70437]
+reverse link IdPA to IdPBroker--><g id="link_IdPA_IdPBroker"><path codeLine="14" d="M201.92,69.52 C190.11,88.65 176.12,111.32 165.22,128.98 " fill="none" id="IdPA-backto-IdPBroker" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="196.14,65.56,212.6,52.21,208.05,72.91,196.14,65.56" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="194" y="95.5684">OIDC</text></g><!--MD5=[e8c6c6e1c7a3daf4a349f620f70cc6f1]
+reverse link IdPB to IdPBroker--><g id="link_IdPB_IdPBroker"><path codeLine="15" d="M92.08,69.52 C103.89,88.65 117.88,111.32 128.78,128.98 " fill="none" id="IdPB-backto-IdPBroker" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="85.95,72.91,81.4,52.21,97.86,65.56,85.95,72.91" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="111" y="95.5684">OIDC</text></g><!--MD5=[b03897c56399030db2430e7efeb02f57]
+reverse link IdPBroker to RpA--><g id="link_IdPBroker_RpA"><path codeLine="16" d="M90.96,204.89 C87.42,209.64 84.34,214.68 82,220 C75.52,234.71 76.71,252.95 79.28,266.91 " fill="none" id="IdPBroker-backto-RpA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="85.81,200.15,104.4,190,96.2,209.54,85.81,200.15" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="83" y="233.5684">OIDC/SAML2</text></g><!--MD5=[9223f0183860270ca9e111b3de94ebcc]
+reverse link IdPBroker to RpB--><g id="link_IdPBroker_RpB"><path codeLine="17" d="M170.1,208.2 C179.89,228.4 190.8,250.93 198.57,266.97 " fill="none" id="IdPBroker-backto-RpB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="163.8,211.24,161.38,190.19,176.4,205.14,163.8,211.24" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="184" y="233.5684">OIDC/SAML2</text></g><!--MD5=[8f8b820353da26caea7585f9191263b1]
+@startuml idp-brokering
+
+object "IdP A" as IdPA
+    IdPA : Authn Method A
+object "IdP B" as IdPB
+    IdPB : Authn Method B
+object IdPBroker
+    IdPBroker : "North: RP for AuthMethods"
+    IdPBroker : "South: IdP for RP Apps"
+object "RP A" as RpA
+    RpA : Appl A
+object "RP b" as RpB
+    RpB : Appl B
+
+IdPBroker -u-|> IdPA : OIDC
+IdPBroker -u-|> IdPB : OIDC
+IdPBroker <|-d- RpA : OIDC/SAML2
+IdPBroker <|-d- RpB : OIDC/SAML2
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 EEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: FI
+--></g></svg>

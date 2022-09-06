@@ -1,0 +1,20 @@
+@startuml idp-brokering
+
+object "IdP A" as IdPA
+    IdPA : Authn Method A
+object "IdP B" as IdPB
+    IdPB : Authn Method B
+object IdPBroker
+    IdPBroker : "North: RP for AuthMethods"
+    IdPBroker : "South: IdP for RP Apps"
+object "RP A" as RpA
+    RpA : Appl A
+object "RP b" as RpB
+    RpB : Appl B
+
+IdPBroker -u-|> IdPA : OIDC
+IdPBroker -u-|> IdPB : OIDC
+IdPBroker <|-d- RpA : OIDC/SAML2
+IdPBroker <|-d- RpB : OIDC/SAML2
+
+@enduml
