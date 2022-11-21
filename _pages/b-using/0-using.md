@@ -13,7 +13,7 @@ The purchase and deployment doesn't always happen exactly in this order and ther
 ## Agreement
 
 As mentioned in chapter [2. Project Structure](../a-general/2-projectStructure.md), there is two ways of purchasing the IdP service:
-* as a Service (SaaS)
+* as a Service (Managed Service Provider - MSP)
 * deploy your own (Library Customer)
 
 Currently, to purchase your instance and/or library license, contact [WeAre Sales](https://www.weare.fi/en/contact-page/).

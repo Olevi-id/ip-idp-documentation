@@ -32,7 +32,7 @@ The OIDC RP library implementation supports only subset of features specified in
 
 In connecting to strong authentication methods, full message level encryption is usually needed, so authentication request signing and id_token encryption is supported as well.
 
-The OIDC RP authentication method can be configured in different needs by specifying parameters to relevant bean the library provides. Please, find more detailed guidance for configuration in integration manual. In most usual cases customers don't need to dive into details of message exchange aspects when the service is acquired as SaaS.
+The OIDC RP authentication method can be configured in different needs by specifying parameters to relevant bean the library provides. Please, find more detailed guidance for configuration in integration manual. In most usual cases customers don't need to dive into details of message exchange aspects when the service is acquired as MSP.
 
 ## ip-idp-lib-auth-email
 
@@ -91,7 +91,7 @@ One could connect OIDC RP authentication module with WebAuthn registration so th
 
 The authentication [flow definition mechanism](https://docs.spring.io/spring-webflow/docs/current-SNAPSHOT/reference/) that Shibboleth uses is very powerful. Virtually anything can be implemented by only a means of configuration.
 
-The WebAuthn module holds one example of an authentication flow definition. It can be overwritten with anything else the deployer desires. However, quite deep knowledge is needed and usually this kind of aspects are handled when the user acquires the authentication module as part of their SaaS delivery.
+The WebAuthn module holds one example of an authentication flow definition. It can be overwritten with anything else the deployer desires. However, quite deep knowledge is needed and usually this kind of aspects are handled when the user acquires the authentication module as part of their MSP delivery.
 
 ### Fitting of the Module in the Architecture
 
@@ -115,4 +115,4 @@ Hans Zandbelt has put this very well in [his blog](https://hanszandbelt.wordpres
 
 ### Further details
 
-As with other modules, further details of the module implementation can be found in integration manual. However, again, those aspects should rarely be taken in own hands, but leave them to an expericed IAM-specialist. We strongly suggest in acquiring the module as SaaS, however, it is available as a library as well.
+As with other modules, further details of the module implementation can be found in integration manual. However, again, those aspects should rarely be taken in own hands, but leave them to an expericed IAM-specialist. We strongly suggest in acquiring the module as MSP, however, it is available as a library as well.

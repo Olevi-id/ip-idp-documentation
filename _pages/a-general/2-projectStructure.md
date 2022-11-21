@@ -2,7 +2,7 @@
 layout: post
 title: 2. Project Structure
 ---
-The IdP implementation (hereafter just IdP) is structured so that a customer can purchase IdP as a service (SaaS) or deploy IdP themselves to an environment of their liking.
+The IdP implementation (hereafter just IdP) is structured so that a customer can purchase IdP as a managed service (MSP) or deploy IdP themselves to an environment of their liking.
 
 IdPn is based of an open-Source [Shibboleth IdP](https://shibboleth.atlassian.net/wiki/spaces/IDP4/overview) software ([OSS](https://en.wikipedia.org/wiki/Open-source_software)), which obviously can't be bought as it is [free as in beer](https://en.wiktionary.org/wiki/free_as_in_beer). However, for everyone that is benefiting from the Software, we recommend consideration to support the project by [joining the consortium](https://www.shibboleth.net/membership/).
 
@@ -31,8 +31,8 @@ The service offering can be ammended with a Service Center option that provides 
 
 Above illustration presents two types of IdP:
 
-* SaaS Customer
-   * SaaS Customer purchaces a package of the solution including the logic and processes in deploying and managing IdP in completion or in limited setup
+* Managed Service (MSP) Customer
+   * MSP Customer purchaces a package of the solution including the logic and processes in deploying and managing IdP in completion or in limited setup
    * There is a recommended architecture in deploying the service to use, but IdP is possible to be deployed in variety of platforms. However, the complexity of the platform affects in costs of running the service.
 * Library Customer
    * Library customer purchace only a module or multiple modules to add functionality to their own IdP. They install, manage and hold every maintenance aspect of the IdP service themselves.
