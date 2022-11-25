@@ -29,7 +29,7 @@ The service offering can be ammended with a Service Center option that provides 
 
 ## Types of Customers
 
-Above illustration presents two types of IdP:
+Above illustration presents two ways to set up the IdP product agreement:
 
 * Managed Service (MSP) Customer
    * MSP Customer purchaces a package of the solution including the logic and processes in deploying and managing IdP in completion or in limited setup
