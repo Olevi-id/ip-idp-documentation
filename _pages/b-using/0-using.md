@@ -79,7 +79,7 @@ However the key material management is chosen to be done, the RP clients should 
 
 The practice we follow is industry standard of how OIDC is used in the Internet. There are controls to this, but RP client implementor should make extra effort to ensure that:
 
-* Domain Name ServiceSystem ([DNS](https://en.wikipedia.org/wiki/Domain_Name_System)) service of the client is bullet proof
+* Domain Name System ([DNS](https://en.wikipedia.org/wiki/Domain_Name_System)) service of the client is bullet proof
 * Man-in-the-Middle ([MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)) attacks are very well controlled
     * espceially on the platform level of the application
 
