@@ -25,13 +25,13 @@ Olevi can connect to multitude of user directories (mainly using LDAP, but also 
 
 ### Processing of Personal Data
 
-While using Cognito you can choose where (geographically) personal data is stored, it is in the cloud. By choosing Olev i, personal data footprint in the cloud is lesser when personal data is distributed to persons themselves (using email+WebAuthn). Or you can choose to host user directory in more isolated environment while only handling authentication in the cloud. In tighiest setting, you can host the complete setup on-premise. 
+While using Cognito you can choose where (geographically) personal data is stored, it is in the cloud. By choosing Olevi, personal data footprint in the cloud is lesser when personal data is distributed to persons themselves (using email+WebAuthn). Or you can choose to host user directory in more isolated environment while processing only authentication in the cloud. In tightiest setting, you can host the complete setup on-premise. 
 
 ### SaaS vs Everything as a Code
 
 Cognito is a SaaS service bought from the cloud. It does exactly and entirely what it claims. Customisation of Cognito UI is possible, but under the hood functionality of Cognito is what it is. It can't be modified.
 
-Cognito customisation still is possible by programming connectors or connecting to external authentication services. In this sense we think that Olevi can be continuation of Cognito. We anticipate that going forward we will be responding requests from organisations using Cognito, if we can support their specific use case.
+Cognito customisation still is possible with customised UI or by programming connectors or connecting to external authentication services. In this sense we think that Olevi can be continuation of Cognito. We anticipate that going forward we will be responding requests from organisations using Cognito, if we can support their specific use case.
 
 The strong authentication in Finland (FTN - Finnish Trust Network) is concrete case example of this. It is very possible to connect Cognito to FTN Broker without anything specific in between. However, if anything special in the flow would be needed to be added or to comply with very serious requirements for cryptographics in FTN, there may very well be situations where external support will be needed in a form of adapting these different components to talk with each other.
 
@@ -47,13 +47,13 @@ While Olevi is run in AWS it can provide authentication to any service in the In
 
 ### Pricing
 
-Cognito is basicly free of charge until 50 000 monthly active users (mau). Users pricing gap for Olevi is not harcoded but based on risk assesment and customer's business's scope. In theory customers serving millions of users can use Olevi with significantly lower costs than any commercial SaaS service .
+Cognito is basicly free of charge until 50 000 monthly active users (mau). Users pricing gap for Olevi is not harcoded but based on risk assesment and customer's business's scope. In theory customers serving millions of users can use Olevi with significantly lower costs than any commercial SaaS service.
 
 For small user pools Cognito is very probably less expensive than Olevi in product pricing. However, prepare to pay for consultation and adapting Cognito to your specific use case or business need.
 
 ### Non-functional Aspects
 
-Olevi is developed based on open source product ([Shibboleth IdP](https://www.shibboleth.net)). Productalisation of Olevi is Finnish work by Finnish developers. [WeAre Solutions](https://www.weare.fi) providing Olevi service is middle sized Finnish company employing Finnish developers and paying taxes to Finland. WeAre Solutions is proud to co-operate with educational institutions and creating trainee positions where from many developers have grown all the way e.g. to lead their own developer team.
+Olevi is developed based on open source product ([Shibboleth IdP](https://www.shibboleth.net)). Productalisation of Olevi is Finnish work by Finnish developers. [WeAre Solutions](https://www.weare.fi) providing Olevi service is middle sized Finnish company employing Finnish developers and paying taxes to Finland. WeAre Solutions is proud to co-operate with educational institutions and creating trainee positions where from many developers have grown all the way e.g. to lead their own company or developer team.
 
 Cusstomers investing in Olevi invest in Finnish innovation and product development. Cognito is run by Amazon, which is United States based company.
 
@@ -65,7 +65,7 @@ Choose cognito when:
 
 and you have: 
 * very well specified and documented use cases
-* use cases are evaluated across Cognito feature matrix
+    * use cases are evaluated across Cognito feature matrix
 * homogenic user base
     * or you can easily group your users in separate pools
 
