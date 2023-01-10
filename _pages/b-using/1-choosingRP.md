@@ -28,13 +28,15 @@ Now, sorry about the rant and let's move forward.
 
 We will give few examples of possible products to use as Relying Party RP implementation.
 
-## Apache HTTPD & mod_authn_openidc
+## Apache HTTPD & mod_auth_openidc
 
 [Hans Zanbelt](https://github.com/zandbelt) has written very good implementation of OIDC RP, the [mod_auhn_openidc](https://github.com/zmartzone/mod_auth_openidc). Hans Zanbelt is widely respected specialist in the field and provides support for the product through his [company](https://zmartzone.eu).
 
-mod_authn_openidc plugs in to [Apache HTTPD](https://httpd.apache.org) Web server that [can function](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) fairly efficiently as authenticating [reverse](https://en.wikipedia.org/wiki/Reverse_proxy) HTTP Proxy.
+mod_auth_openidc plugs in to [Apache HTTPD](https://httpd.apache.org) Web server that [can function](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) fairly efficiently as authenticating [reverse](https://en.wikipedia.org/wiki/Reverse_proxy) HTTP Proxy.
 
-The mod_authn_openidc project already has very good configuration documentation and example configuration snippets that you can use to get your project started.
+The mod_auth_openidc project already has very good configuration documentation and example configuration snippets that you can use to get your project started.
+
+You can find one sample of using the module with Olevi IdP [here](https://github.com/klaalo/ip-auth-proxy-template).
 
 ## Spring Framework and Spring Security
 
