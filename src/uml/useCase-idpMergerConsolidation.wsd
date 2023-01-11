@@ -1,0 +1,18 @@
+@startuml useCase-idpMergerConsolidation
+
+object "Google Identity Platform" as GoogleIdP
+    GoogleIdP : Company A
+object "Azure AD" as AAD
+    AAD : Company B
+object IdPBroker
+object "Third Party Service A" as 3rdPa
+object "Third Party Service B" as 3rdPb
+object "Third Party Service C" as 3rdPc
+
+IdPBroker -u-|> AAD
+IdPBroker -u-|> GoogleIdP
+IdPBroker <|-d- 3rdPa
+IdPBroker <|-d- 3rdPb
+IdPBroker <|-d- 3rdPc
+
+
