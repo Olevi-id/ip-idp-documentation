@@ -1,0 +1,10 @@
+@startuml useCase-protocolAdaptor
+
+object  OrigIdP
+object Olevi
+object Service
+
+OrigIdP -u-|> Olevi : OIDC
+Olevi -u-|> Service : SAML2
+
+@enduml
