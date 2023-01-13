@@ -1,0 +1,18 @@
+@startuml useCase-jitProvisioning
+
+actor User
+
+User -> Service: Trigger auth
+Service -> User: Auth Request
+User -> IdP: Auth Request\n(redirected)
+IdP -> User: Authenticate
+User -> IdP: Authenticate
+IdP -> CRM: Resolve extra attributes\n(backchannel)
+IdP -> Service: Provision user profile\n(backchannel)
+IdP -> User: Auth response
+User -> Service: Auth response\n(redirected)
+Service -> IdP: Fetch id_token
+IdP -> Service: id_token response
+Service -> Service: connect to profile
+Service -> User: Authenticated
+User -> Service: Authorisated
