@@ -2,7 +2,7 @@
 layout: post
 title: 1. Use Cases
 ---
-In chapter [authentication methods](../../a-general/3-authenticationMethods/) we presented only briefly some use cases for the IdP. Let's dive a bit deeper in different scenarious one might have. This is not exhaustive list and given examples are only examples.
+In chapter [authentication methods](../../a-general/3-authenticationMethods/) we presented only briefly some use cases for the IdP. Let's dive a bit deeper in different scenarios one might have. This is not exhaustive list and given examples are only examples.
 
 Olevi IdP is very versatile product and can adapt to many different scenarios that we (the developers) have not even invented yet. If you have a problem, please, [let us know](https://www.weare.fi/en/contact-page/) so that we can study if it can be solved or alleviated using authentication.
 
