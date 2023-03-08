@@ -82,7 +82,7 @@ We don't yet know, if it will be done as a separate release and what else will f
 
 ### Authentication flow improvements
 
-Especially for WebAuthn flow we have recognised some improvements that can be done to the flow. Also, it will be interesting to research other identification methods parallel to email address. One might have noticed and it might have been mentioned that we were approached by [hightrust.id](hightrust.id) and [sinuna.fi](sinuna.fi) and these methods have been added to [demo instance](demo.olevi.fi). However, these or similar installations have not yet been added as identification methods to WebAuthn.
+Especially for WebAuthn flow we have recognised some improvements that can be done to the flow. Also, it will be interesting to research other identification methods parallel to email address. One might have noticed and it might have been mentioned that we were approached by [hightrust.id](hightrust.id) and [sinuna.fi](sinuna.fi) and these methods have been added to [demo instance](https://demo.olevi.fi/). However, these or similar installations have not yet been added as identification methods to WebAuthn.
 
 Also, we have connected multiple FTN Strong Authentication Broker providers to Olevi in various use cases. It will be interesting to study how to connect them with WebAuthn better (we had one initial POC of that). Time will see what customers see important in this field.
 
