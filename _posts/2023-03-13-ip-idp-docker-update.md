@@ -14,7 +14,7 @@ title: 13.3.2023 Deployment update to version 1.3.0
 ## Release status
 
 * ✓ 8.3.2023: peer review
-* ✓ 13.3.2023: release published to clients
+* ✓ 13.3.2023: release published to customers
 
 ## General thoughts
 
