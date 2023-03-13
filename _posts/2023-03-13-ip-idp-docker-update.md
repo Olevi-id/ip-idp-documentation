@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 8.3.2023 Deployment update to version 1.3.0
+title: 13.3.2023 Deployment update to version 1.3.0
 ---
 > ℹ️ Related versions
 > * ip-idp-lib-auth-webauthn: 1.0
@@ -13,10 +13,8 @@ title: 8.3.2023 Deployment update to version 1.3.0
 
 ## Release status
 
-_Will be updated_
-
-* ❗️ 8.3.2023: peer review
-* ⭕️ x.x.2023: release pending
+* ✓ 8.3.2023: peer review
+* ✓ 13.3.2023: release published to clients
 
 ## General thoughts
 
