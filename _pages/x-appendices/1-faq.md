@@ -87,3 +87,46 @@ When choosing Cognito, prepare to:
     * Lambda fucntions to help with authorisation decisions
         * or connectors to external authorisation service
 * adapt to changes in everything in previous bullet
+
+## Is Olevi Strong Authentication Provider
+
+
+No. Olevi is a tool. One tool can't provide Strong Authentication. Being a Trust Service is much more than one tool. It is about policies, processes, practices, controls and much more.
+
+As a concept, Strong Authentication in Finland is connected to [Finnish Trust Network](https://www.kyberturvallisuuskeskus.fi/en/our-activities/regulation-and-supervision/electronic-identification), where mostly banks offer their customer credentials as means to strong authentication and Telco operators offer [Mobiilivarmenne](https://mobiilivarmenne.fi/eng/) method that is a certificate on end users SIM-card.
+
+Another variations of the question is:
+
+> Is Olevi compliant to FTN?
+
+This question is relevant especially in Spring 2023, when rest of the requirements in new [M72B regulation](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_MÄÄRÄYS_72B_tunnistus-_ja_luottamuspalvelut_ENG_julkaistu.pdf) by Traficom take effect.
+
+Then, another variation of the question can be articulated as:
+
+> Is Olevi compliant to Strong Authentication?
+
+or 
+
+> Is Olevi compliant to PSD2?
+
+The answer is the same. No. Olevi can't be compliant by itself. These regulations are about much more than just one tool.
+
+### Real world analogy
+
+Let's take a real world analogy to explain. You buy green energy from your energy company to your home. The company promises in an agreement that the energy you buy is produced according to green energy principles without waisting excess natural resources and without burning fossil fuels.
+
+You plug your portable power bank in your home to charge it with this green energy. The you go about your business and charge your mobile phone with the power bank.
+
+Is your power bank a green energy provider?
+
+No, it is not. To make your power bank green, there are much more to consider than just energy source. You need to consider e.g. how the power bank was manufactured or how it will be disposed when the time comes. Do you use it until the end of its lifecycle and then recycle it appropriately?
+
+### Olevi FTN compliance
+
+Olevi is being used as part of FTN and it is being used to connect to FTN. In technical terms Olevi provides necessary features for an organisation to be compliant provider or client in FTN.
+
+As regulations change and if there is demand from customers, Olevi will implement new features to support changing regulation. Currently and quite often the support is already built in. If in doubt, contact your [support partner](https://www.weare.fi/en/contact-page/) for details.
+
+### Could we use Olevi technologies to provide trust services
+
+Yes you can, if your organisation has the means and capabilities to provide those services in general. If you are interested in using Olevi as part of your services, contact [sales](https://www.weare.fi/en/contact-page/).
