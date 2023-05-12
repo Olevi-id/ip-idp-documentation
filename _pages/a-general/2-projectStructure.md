@@ -6,9 +6,9 @@ The IdP implementation (hereafter just IdP) is structured so that a customer can
 
 IdPn is based of an open-Source [Shibboleth IdP](https://shibboleth.atlassian.net/wiki/spaces/IDP4/overview) software ([OSS](https://en.wikipedia.org/wiki/Open-source_software)), which obviously can't be bought as it is [free as in beer](https://en.wiktionary.org/wiki/free_as_in_beer). However, for everyone that is benefiting from the Software, we recommend consideration to support the project by [joining the consortium](https://www.shibboleth.net/membership/).
 
-WeAre Solutions has created modules that add in to the free IdP software accumulating the set of features it provides. In the core of the product development in WeAre Solutions is also the deployment model that makes it possible to provide the software as a service for customers.
+Olevi has created modules that add in to the free IdP software accumulating the set of features it provides. In the core of the product development in Olevi is also the deployment model that makes it possible to provide the software as a service for customers.
 
-WeAre Solutions doesn't charge anything of the core IdP software, but only the modules that it has implemented. Also, if a customer purchases IdP as a service, the customer pays for the costs that the deployment and management causes.
+Olevi doesn't charge anything of the core IdP software, but only the modules that it has implemented. Also, if a customer purchases IdP as a service, the customer pays for the costs that the deployment and management causes.
 
 ## The Structure
 

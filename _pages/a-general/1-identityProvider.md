@@ -12,7 +12,7 @@ There are currently two major protocols to exchange authentication information b
 * OpenID Connect ([OIDC](https://openid.net/specs/openid-connect-core-1_0.html))
     * OIDC is based on: [OAuth2](https://www.rfc-editor.org/rfc/rfc6749)
 
-WeAre Solutions IdP supports both of the above and a most of the functionality described in OAuth2 when providing means of authentication of the users to your RP.
+Olevi IdP supports both of the above and a most of the functionality described in OAuth2 when providing means of authentication of the users to your RP.
 
 The connection between IdPs and RPs using these protocols may get a bit confusing when _Identity Brokering_ comes in to a picture. We discuss _northbound_ and _southbound_ authentication more thoroughly in chapter [3. Authentication Methods](../3-authenticationMethods).
 
@@ -24,7 +24,7 @@ There exists also others, older or otherwise obsolete or narrow margin protocols
 * Central Authentication Service ([CAS](https://en.wikipedia.org/wiki/Central_Authentication_Service))
 * [Radius](https://en.wikipedia.org/wiki/RADIUS)
 
-These or other protocols are not in the scope of WeAre Solutions IdP service, but WeAre is very powerful company and can provide a multitude of services. Abcense of the protocols in this implenentation out of the box doesn't mean they could not be covered with some other implementation or adjustement to this implementation.
+These or other protocols are not in the scope of Olevi IdP. Olevi is partnering with very capable IT consultation companies that can provide a multitude of services. Abcense of the protocols in this implenentation out of the box doesn't mean they could not be covered with some other implementation or adjustement to this implementation.
 
 ### Strong Specifications
 

@@ -6,9 +6,11 @@
 
 title: Identity Provider Reference
 email: support@weare.fi
-description: WeAre Solutions Identity Provider Implementation Reference Documentation
-baseurl: "/"
-url: "https://ip-idp-documentation.hete.me"
+description: Olevi Identity Provider Implementation Reference Documentation
+#baseurl: "/"
+baseurl: ""
+url: "https://doc.olevi.fi"
+#url: "http://localhost:4000"
 twitter_username: 
 github_username: 
  

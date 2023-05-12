@@ -2,7 +2,7 @@
 layout: post
 title: 4. Preferred Architecture
 ---
-WeAre Solutions run the IdP in [Amazon Web Services Cloud Platform](https://aws.amazon.com). As anyone can run the IdP, there are multitude of possibilities to run it. However, as this topic is frequently discussed, we want to be upfront in what is our plan in providing an IdP instance.
+In typical setup Olevi IdP is run in [Amazon Web Services Cloud Platform](https://aws.amazon.com). However, as anyone can run the IdP, there are multitude of possibilities to run it. This topic is frequently discussed, so we want to be upfront in what is our plan in providing an IdP instance.
 
 We run the service in [an Fargate](https://aws.amazon.com/fargate/) instance. An Application Load Balancer ([ALB](https://aws.amazon.com/elasticloadbalancing/application-load-balancer/)) sits in front of the service.
 
@@ -60,18 +60,18 @@ If risk management is important, we would suggest on planning fault tolerancy an
 
 ## From a Shared IdP Instance to Dedicated Customer Account
 
-When run as WeAre managed service, there are still options on how the AWS account is founded. Two general options are easy to scope:
+When run as managed service, there are still options on how the AWS account is founded. Two general options are easy to scope:
 
 * running in solely dedicated AWS account for given customer
 * running in shared AWS account
 
-I addition to run the service in WeAre managed AWS account it is possible to run the service in customer's own already created AWS account. However, this requires access rights for WeAre technicians and other aspects that need to be agreed regarding responsibilities and where demarcation line for the SLA will be drawn.
+I addition to run the service in managed AWS account it is possible to run the service in customer's own already created AWS account. However, this requires access rights for support partner technicians and other aspects that need to be agreed regarding responsibilities and where demarcation line for the SLA will be drawn.
 
 ### Dedicated AWS Account
 
 It is possible to create an AWS account that is solely allocated for the customer. Nothing in the account is shared with any other customer.
 
-Having a dedicated account makes it possible that WeAre can host other services for this customer as well. Platform expenses for the services in the account can be estimated and billed to more exact terms.
+Having a dedicated account makes it possible that support partner can host other services for this customer as well. Platform expenses for the services in the account can be estimated and billed to more exact terms.
 
 However, as all components are dedicated to the customer, customer pays for all expenses regarding hosting the services running in this AWS account. There is no other customers sharing the costs.
 
@@ -79,7 +79,7 @@ E.g. load balancer set up for the IdP service is dedicated for the customer and 
 
 ### Shared AWS account
 
-WeAre Solutions has pre-defined some AWS-accounts where IdP service can be deployed among with other IdP services for other clients. The IdP service runs in isolated container. Nothing in customer's container is shared with any other clients.
+Support partners can have pre-defined AWS-accounts where IdP service can be deployed among with other IdP services for other clients. The IdP service runs in isolated container. Nothing in customer's container is shared with any other clients.
 
 However, as the AWS account is shared, the load balancer (and possibly other frontend protecting services like Web Application Firewalls etc) serving a bunch of IdP services can be shared. The costs for frontend services can be shared between clients and the share of relative load balancer costs to a single IdP instance is smaller.
 
@@ -89,6 +89,6 @@ In shared environment it is more difficult to estimate and account for the costs
 
 We recommend starting with shared AWS account. In general, expenses are lower in shared environment. If customer has strict policy for not running services in shared environments, then dedicated AWS account is needed.
 
-If other services are planned to be hosted in WeAre managed AWS account, then it might be beneficial to set up a dedicated account for customer hosting all planned services in one account.
+If other services are planned to be hosted in managed AWS account, then it might be beneficial to set up a dedicated account for customer hosting all planned services in one account.
 
 When customer's use of services grow, it is possible to quite simply migrate from shared account to dedicated one.

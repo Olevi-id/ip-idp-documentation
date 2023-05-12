@@ -2,7 +2,7 @@
 layout: post
 title: 3. Authentication Methods
 ---
-The implementation contains currently 3 authentication module libraries provided by WeAre Solutions. In addition to these, [modules](https://shibboleth.atlassian.net/wiki/spaces/IDP4/pages/1265631601/AuthenticationConfiguration) made available through Shibboleth project can be used as well. Shibboleth project is well document. Please follow previous link regarding basic modules in Shibboleth.
+The implementation contains currently 3 authentication module libraries provided by Olevi. In addition to these, [modules](https://shibboleth.atlassian.net/wiki/spaces/IDP4/pages/1265631601/AuthenticationConfiguration) made available through Shibboleth project can be used as well. Shibboleth project is well document. Please follow previous link regarding basic modules in Shibboleth.
 
 Each library has a separate integration manual for deployers that are available on [request](https://www.weare.fi/en/contact-page/).
 

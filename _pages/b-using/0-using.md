@@ -16,7 +16,7 @@ As mentioned in chapter [2. Project Structure](../a-general/2-projectStructure.m
 * as a Service (Managed Service Provider - MSP)
 * deploy your own (Library Customer)
 
-Currently, to purchase your instance and/or library license, contact [WeAre Sales](https://www.weare.fi/en/contact-page/).
+Currently, to purchase your instance and/or library license, contact [Sales](https://www.weare.fi/en/contact-page/).
 
 ## Registration
 
@@ -85,7 +85,7 @@ The practice we follow is industry standard of how OIDC is used in the Internet.
 
 > ##### TIP
 >
-> WeAre Solutions _test_ and _staging_ environments are set with _changing_ key material.
+> WeAre Solutions _test_ environment is set with _changing_ key material.
 
 ## RP Installation
 

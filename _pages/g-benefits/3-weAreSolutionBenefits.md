@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3. Choosing WeAre Solutions Implementation over Others
+title: 3. Choosing Olevi over Other Implementations
 ---
 Placeholder for USPs
 
