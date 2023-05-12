@@ -3,7 +3,7 @@ layout: post
 title: 1. Frequently Asked Questions
 ---
 
-## How Olevi Compares to AWS Cognito
+## How Olevi Compares to AWS Cognito?
 
 [Amazon Cognito](https://aws.amazon.com/cognito/) is very capable and frictionless customer identity and access management product that scales
 
@@ -88,7 +88,7 @@ When choosing Cognito, prepare to:
         * or connectors to external authorisation service
 * adapt to changes in everything in previous bullet
 
-## Is Olevi Strong Authentication Provider
+## Is Olevi Strong Authentication Provider?
 
 
 No. Olevi is a tool. One tool can't provide Strong Authentication. Being a Trust Service is much more than one tool. It is about policies, processes, practices, controls and much more.
@@ -130,3 +130,19 @@ As regulations change and if there is demand from customers, Olevi will implemen
 ### Could we use Olevi technologies to provide trust services
 
 Yes you can, if your organisation has the means and capabilities to provide those services in general. If you are interested in using Olevi as part of your services, contact [sales](https://www.weare.fi/en/contact-page/).
+
+## What is an Instance?
+
+Definition of term _instance_ comes up as a question often while discussing Olevi pricing. Olevi charges fees on licenses. License fees are based on instances.
+
+In Olevi terms, instance is one IdP service. Possibly not always, but practically most often amount of instances equal to separate URL addresses that customer has as IdP services. For example, your test instance has separate URL from your production instance, so you have two instances.
+
+In OIDC terms one OpenId Connect Provider (an issuer) is one instance. In OIDC _iss_ is an unique identifier for an OpenId Connect Provider (an IdP).
+
+Olevi scales vertically in terms of performance. Number of nodes is a separate thing from instances. An Olevi instance is one instance regardless of the number of nodes needed to run the instance. To say this in other words, Olevi license model doesn't charge fees based on CPU cores or other performance related aspects.
+
+Based on your deployment model you either pay for performance directly to your platform provider yourself or you pay to your support service provider if they host the service for you as a service.
+
+> #### Defition of an instance
+>
+> Olevi instance is singular logical entity of an IdP service that most often equals to unique URL or OIDC _iss_ of the IdP service.
