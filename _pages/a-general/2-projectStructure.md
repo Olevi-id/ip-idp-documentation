@@ -40,10 +40,18 @@ Above illustration presents two ways to set up the IdP product agreement:
 
 ## Purchasing Olevi
 
+You order your Olevi instance from your reseller. Currently, contact [WeAre Solutions](https://www.weare.fi/en/contact-page/).
+
 The cost structure is two layered:
 
 1. Continuous charges
 1. Project work to set Olevi up
+
+Your reseller makes you an offer on continuous charges and defines a project plan with you to put up your Olevi instances in quantity and quality that you choose. It is good to understand that planning your project is work accomplished by distinguished experts that do just that as their occupation.
+
+This practically means that probably the initial figures for the cost of putting up an Olevi and related services is a rough estimate. To find out more exact number for the price of your project probably requires work that your reseller will need to charge from you as a consulting fee.
+
+For some examples of pricing, please refer to Olevi [marketing pages](https://www.olevi.fi/) (in Finnish).
 
 ### Continuous Charges
 
@@ -51,7 +59,7 @@ Continuous charges to purchase Olevi is most often three layered:
 
 | Component | Description |
 | --------- | ----------- |
-| License fees | Olevi charges license fees that you pay to your reseller. This part of the cost is used to develop Olevi technologies and to provide the added functionalities that you can't still get from the base OSS product or that are unique for Olevi |
+| License fees | Olevi charges license fees that you pay to your reseller. This part of the cost is used to develop Olevi technologies and to provide the added functionalities that you can't still get from the base OSS product or that are unique to Olevi |
 | Support Service (SLA) | Any service need taking care of to function properly over time. Your support provider charges a fee for the support that they provide based on the service level that you agreed. In tricky situations your reseller can refer to Olevi for 3rd tier support. |
 | Platform costs | A platform is needed to run Olevi. Depending on your chosen deployment model, it may be that you pay for the platform directly to you platform provider, or one can be hosted for you by your reseller or support partner |
 
