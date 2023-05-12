@@ -37,3 +37,33 @@ Above illustration presents two ways to set up the IdP product agreement:
 * Library Customer
    * Library customer purchace only a module or multiple modules to add functionality to their own IdP. They install, manage and hold every maintenance aspect of the IdP service themselves.
    * Extensive knowledge and experience is needed to run IdP independently. However, consultation is available not only by the library vendor, but many other [commercial support partners](https://www.shibboleth.net/support/) as well.
+
+## Purchasing Olevi
+
+The cost structure is two layered:
+
+1. Continuous charges
+1. Project work to set Olevi up
+
+### Continuous Charges
+
+Continuous charges to purchase Olevi is most often three layered:
+
+| Component | Description |
+| --------- | ----------- |
+| License fees | Olevi charges license fees that you pay to your reseller. This part of the cost is used to develop Olevi technologies and to provide the added functionalities that you can't still get from the base OSS product or that are unique for Olevi |
+| Support Service (SLA) | Any service need taking care of to function properly over time. Your support provider charges a fee for the support that they provide based on the service level that you agreed. In tricky situations your reseller can refer to Olevi for 3rd tier support. |
+| Platform costs | A platform is needed to run Olevi. Depending on your chosen deployment model, it may be that you pay for the platform directly to you platform provider, or one can be hosted for you by your reseller or support partner |
+
+### Project Costs
+
+In addition to continuous charges Olevi need to be put up for you to run. Olevi deployment is farely simple, but things get trickier when:
+* the IdP is connected to
+   * Relying Parties (RP) i.e. services
+   * authentication methods
+* customisations or modifications will be done to suit your needs in
+   * authentication flows
+   * user interface (UI)
+   * user experience (UX)
+
+Setting up an Olevi instance is project work that you define and agree with your reseller or support partner.
