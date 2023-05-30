@@ -56,3 +56,29 @@ Olevi can act as a protocol adapter between organisations actual Identity Provid
 In use case that SalesForce has documented, organisation can save moving from one license edition to another by connecting authentication with SAML2 instead of OIDC that requires different license edition.
 
 Also, it might be that the service that organisation relies on supports only one kind of protocol. It might be that services migrate to modern architectures and support only OIDC where organisation has only SAML2 capable Identity Provider in use.
+
+## Tested integrations
+
+This is initial and non-exhaustive list of integrations that have been tested using Olevi. Not all tested and tried integrations have been mentioned in detail.
+
+### Identity Providers
+
+* Azure AD
+* Google Identity
+* Telia Tunnistus (FTN)
+* Nets eIdent (FTN)
+* [Hightrust](https://www.hightrust.id)
+* [Sinuna](https://sinuna.fi)
+
+### Relying Parties (Cloud, SaaS)
+
+* AWS Web Console
+* Atlassian Access
+* Citrix Netscaler
+* Samltest
+
+### Relying Party Products
+
+* Apache mod\_auth\_openidc
+* Spring Security
+
