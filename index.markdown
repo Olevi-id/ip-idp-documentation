@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Identity Provider reference
 ---
 [Olevi](https://www.olevi.fi/) Identity Provider is OIDC/SAML2 compatible implementation, based on [Shibboleth IdP](https://shibboleth.atlassian.net/wiki/spaces/IDP4/overview) open source software.
 
