@@ -71,7 +71,7 @@ Relying Parties (applications) can then make decision on access to specific feat
 
 ## We don't send emails
 
-Olevi Groups doesn't send transactional emails. This is also an intentional decision we made (which can be challenged as any other opinion that we have).
+Olevi Groups doesn't send transactional emails. Also this is an intentional decision we made (which can be challenged as any other opinion that we have).
 
 Only transactional emails regarding Olevi Groups are the one time pin codes (OTP) that will be sent to verify that users have access to email addresses they claim to have.
 
