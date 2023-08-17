@@ -1,6 +1,6 @@
 ---
 layout: post
-title: g) Management Interface
+title: h) Management Interface
 ---
 Olevi Identity Provider, that is based on open source software product Shibboleth IdP, is very versatile tool and can do many things. Verstaility brings complexity. One major motivation for us with Olevi is to make difficult things more approachable. We understand very well that our mumbling on very complex authentication practices is unclear and we work very hard to make it better comprehensible.
 
