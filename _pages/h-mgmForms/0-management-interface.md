@@ -12,9 +12,9 @@ MgmForms has been implemented with [Spring Boot](https://spring.io/projects/spri
 
 ## Olevi SaaS
 
-It is a deliberate decision that we don't advertise it loudly, but Olevi can also be purchased as SaaS. The most typical use case is to purchase Olevi installed as a MSP deployment or to be run on customer's own platform. However, the Management Interface makes it possible to request a Relying Party (RP) registration using self service workflow and to start using Olevi Identity Provider for authentication without specialiced installations or difficult negotiations for an agreement.
+It is a deliberate decision that we don't advertise this loudly, but Olevi can also be purchased as SaaS. Most typical case is to purchase Olevi installed as a MSP deployment or to be run on customer's own platform. However, the Management Interface makes it possible to request a Relying Party (RP) registration using self service workflow and to start using Olevi Identity Provider for authentication without specialiced installations or difficult negotiations for an agreement.
 
-The workflow to register Olevi client is quite intuitive and we will not provide step-by-step instructions. We expect clients to be experienced in Authentication and Authorisation Infrastructure (AAI). However, Olevi has close connections to support providers that can help in integrations to AAI even if client is not be that experienced in the field.
+The workflow to register Olevi client is quite intuitive and we will not provide step-by-step instructions. We expect clients to be experienced in Authentication and Authorisation Infrastructure (AAI). However, Olevi has close connections to support providers that can help in integrations to AAI even if client is not that experienced in the field.
 
 Feel free to [contact](https://www.weare.fi/en/contact-page/) if further advice should be needed.
 
@@ -22,7 +22,7 @@ Feel free to [contact](https://www.weare.fi/en/contact-page/) if further advice 
 
 Most anticipated and requested feature when starting to implement Olevi was **Groups**. While one would think that organisations know their users and users' rights and entitlements, reality is that they don't. Simple task of managing admin access to an application can be cumbersome even in most sophisticated organisations. If not in general, in many and so numerous corner cases.
 
-When we tell that authentication is simple using Olevi, the first question always is that how can we separate authorised users from others. Based on basic principles of AAI, RBAC (Role Based Access Control) is given. It is obvious thought that users bring their attributes with them during authentication and access management can be based on the details that we know about the user based on authentication. Reality is different.
+When we tell that authentication is simple using Olevi, the first question always is that how can we separate authorised users from others. Based on basic principles of AAI, RBAC (Role Based Access Control) is given. It is obvious thought that users bring their attributes with them during authentication. Access management can then be based on the details that we know about the user based on authentication. Reality is different.
 
 Nowadays users bring only their identity while authenticated. Organisations have little understanding in roles and entitlements of their users. This is where Olevi Groups come in.
 
@@ -37,7 +37,7 @@ Personal data processing will be done in the scope of Management Interface. Olev
 
 ### Create a Group
 
-Anhyone with access to Olevi Management Interface can create a Group. Groups are created in the scope of the Management Interface. E.g. general Olevi test instance has its own scope while production instance has another. If clients have purchased their own instances, clients can decide the scopes of groups.
+Anyone with access to Olevi Management Interface can create a Group. Groups are created in the scope of the Management Interface. E.g. general Olevi test instance has its own scope while production instance has another. If clients have purchased their own instances, clients can decide the scopes of groups.
 
 Inside each scope, the Groups are common. In general Olevi instances anyone with registered Olevi ID can request membership to any Group. It is up to Group admins wether they accept or deny requests. Certain restrictions apply to limit possible bad actors trying to harass Group admins.
 
@@ -45,7 +45,7 @@ Inside each scope, the Groups are common. In general Olevi instances anyone with
 
 While created, the creator of the Group becomes Group admin. Group admins can accept or deny Group memberships. People get access to a Group only after admin has accepted the request. Group admin can also remove member from the Group at any time.
 
-Group admins see list of members in the Group and their identifiers and some personal data of the members. Group admins and members become informed of their personal data processing from a Privacy Policy that the Management Interface client has published or in case of general Olevi instances, from [Olevi Pricvcy Policy](https://www.olevi.fi/tietosuoja) document.
+Group admins see list of members in the Group and their identifiers and some personal data of the members. Group admins and members become informed of their personal data processing from a Privacy Policy that the Management Interface client has published or in case of general Olevi instances, from [Olevi Privacy Policy](https://www.olevi.fi/tietosuoja) document.
 
 Olevi Privacy Policy has been published with CC license so that it is easy for any customer to start planning their personal data processing. Read further details from the Privacy Policy document.
 
