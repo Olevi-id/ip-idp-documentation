@@ -1,7 +1,7 @@
 @startuml useCase-protocolAdaptor
 
 object  OrigIdP
-object Olevi
+object "Olevi IdP" as Olevi
 object Service
 
 OrigIdP -u-|> Olevi : OIDC

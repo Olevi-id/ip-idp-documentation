@@ -4,9 +4,9 @@ object "IdP A" as IdPA
     IdPA : Authn Method A
 object "IdP B" as IdPB
     IdPB : Authn Method B
-object IdPBroker
-    IdPBroker : "North: RP for AuthMethods"
-    IdPBroker : "South: IdP for RP Apps"
+object "Olevi IdP" as IdPBroker
+    IdPBroker : North: RP for AuthMethods
+    IdPBroker : South: IdP for RP Apps
 object "RP A" as RpA
     RpA : Appl A
 object "RP b" as RpB

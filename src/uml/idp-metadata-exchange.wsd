@@ -1,6 +1,6 @@
 @startuml idp-metadata-exchange
 
-object IdP
+object "Olevi IdP" as IdP
    IdP : .well-known/openid-configuration
 object Rp
    Rp : offline registration
