@@ -10,7 +10,7 @@ While Olevi is based on open source software Shibboleth IdP, the added functiona
 * [clean air to breath](https://www.visitfinland.com/en/articles/finnish-air-and-benefits/)
 * [clean and natural environment to enjoy and spend time](https://www.nationalparks.fi)
 
-List of benefits in doing business in Finland is endless, and we are not here to talk about Finland, but Olevi. We know you are interested though, so pleas, find more facts of Finland [here](https://toolbox.finland.fi).
+List of benefits in doing business in Finland is endless, and we are not here to talk about Finland, but Olevi. We know you are interested though, so please, find more facts of Finland [here](https://toolbox.finland.fi).
 
 ## Although Finnish, Olevi is International
 

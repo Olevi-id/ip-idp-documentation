@@ -115,7 +115,7 @@ The answer is the same. No. Olevi can't be compliant by itself. These regulation
 
 Let's take a real world analogy to explain. You buy green energy from your energy company to your home. The company promises in an agreement that the energy you buy is produced according to green energy principles without waisting excess natural resources and without burning fossil fuels.
 
-You plug your portable power bank in your home to charge it with this green energy. The you go about your business and charge your mobile phone with the power bank.
+You plug your portable power bank in your home to charge it with this green energy. Then you go about your business and charge your mobile phone with the power bank.
 
 Is your power bank a green energy provider?
 
