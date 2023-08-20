@@ -2,7 +2,9 @@
 layout: post
 title: 3. Choosing Olevi over Other Implementations
 ---
-While Olevi is based on open source software Shibboleth IdP, the added functionalities that Olevi provides are implemented in Finland. Olevi is Finnish product. Here is a well known, but not exhaustive list of **benefits that Finland** can provide:
+In this page we list few reasons, why one might choose Olevi as their Identity Provider instead of some other product.
+
+While Olevi is based on open source software Shibboleth IdP, the added functionalities that Olevi provides are implemented in Finland. **Olevi is Finnish product**. Here is a well known, but not exhaustive list of benefits that Finland can provide:
 
 * [most happiest country in the world](https://www.bbc.com/news/world-europe-56457295)
 * [leader in environmental policy and sustainability](https://www.oecd.org/environment/country-reviews/oecd-environmental-performance-reviews-finland-2021-d73547b7-en.htm)
@@ -10,7 +12,7 @@ While Olevi is based on open source software Shibboleth IdP, the added functiona
 * [clean air to breath](https://www.visitfinland.com/en/articles/finnish-air-and-benefits/)
 * [clean and natural environment to enjoy and spend time](https://www.nationalparks.fi)
 
-List of benefits in doing business in Finland is endless, and we are not here to talk about Finland, but Olevi. We know you are interested though, so please, find more facts of Finland [here](https://toolbox.finland.fi).
+List of benefits in doing business in Finland is endless. We are not here to talk about Finland, but Olevi. We know you are interested though, so please, find more facts of Finland [here](https://toolbox.finland.fi).
 
 ## Although Finnish, Olevi is International
 
@@ -56,6 +58,16 @@ Although agile, Olevi does recommend buying the Olevi product from a reseller th
 Client agrees the price of the product with a reseller. Once the negotiations to purchase Olevi have been concluded, the client can be confident that there is no surprise charges based on growth of the user base or growth of transactions. Olevi price is based on instances rather than CPU-units or amount of monthly active users or the amount of transactions. Olevi scales very well both horisontally and vertically, but scaling performance doesn't scale costs.
 
 While Olevi doesn't limit performance scaling in general, there is a top limit also in performance in regard to pricing. However, we are talking about millions of users and millions of transactions. With these limitations we want to ensure fairness in some corner cases of growth of our clients. This is to ensure Olevi doesn't get obsolete by some exceptionally rapid growing companies that migth consume Olevi in their own growth. This is also to protect other customers of Olevi from being denied the security of their own continuity.
+
+## Everything as a Code
+
+In comparison to many authentication providers available in the cloud as a Service (SaaS), Olevi is as a code product. While SaaS services usually do very well what thet promise, they do just that and nothing else. Scaling to customer nees in SaaS is based on client's ability to accomodate themselves to the service. 
+
+To be clear, current cloud architectures make it possible to build setups so that even SaaS can be fitted to many needs. Also needs are often similar, so SaaS might be fit for choise in many occasions. Still, SaaS is run where provider decidec. As stated before, Olevi can be run on very many platforms. In lack of ready platform, Olevi reseller is glad to probide one.
+
+Olevi sits well in those kind of needs where versatility is necessity. In many places in this document we state that Olevi is a code product. Olevi has been created with Everything as a code principle in mind. Olevi modules, CI/CD pipelines, configuration and even these documentation pages are created as a code.
+
+This means that Olevi can be fitted in most demanding needs. If your need for authentication provider is very simple and your procedures are standard, choise of a SaaS purchase from some cloud provider might be best fit, while Olevi can provide to that as well. However, when your use case is more demanding, your architecture is difficult or you are in a state of transition between old and new, Olevi could be very good fit.
 
 ## Local and esteemed provider
 
