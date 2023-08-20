@@ -61,13 +61,13 @@ While Olevi doesn't limit performance scaling in general, there is a top limit a
 
 ## Everything as a Code
 
-In comparison to many authentication providers available in the cloud as a Service (SaaS), Olevi is as a code product. While SaaS services usually do very well what thet promise, they do just that and nothing else. Scaling to customer nees in SaaS is based on client's ability to accomodate themselves to the service. 
+In comparison to many authentication providers available in the cloud as a Service (SaaS), Olevi is as a code product. While SaaS services usually do very well what they promise, they do just that and nothing else. Scaling to customer needs in SaaS is based on client's ability to accomodate themselves to the service. 
 
-To be clear, current cloud architectures make it possible to build setups so that even SaaS can be fitted to many needs. Also needs are often similar, so SaaS might be fit for choise in many occasions. Still, SaaS is run where provider decidec. As stated before, Olevi can be run on very many platforms. In lack of ready platform, Olevi reseller is glad to probide one.
+To be clear, current cloud architectures make it possible to build setups so that even SaaS can be fitted to many needs. Also needs are often similar, so SaaS might be fit for choise in many occasions. Still, SaaS is run where provider decides. As stated before, Olevi can be run on many platforms. In lack of ready platform, Olevi reseller is glad to provide one.
 
 Olevi sits well in those kind of needs where versatility is necessity. In many places in this document we state that Olevi is a code product. Olevi has been created with Everything as a code principle in mind. Olevi modules, CI/CD pipelines, configuration and even these documentation pages are created as a code.
 
-This means that Olevi can be fitted in most demanding needs. If your need for authentication provider is very simple and your procedures are standard, choise of a SaaS purchase from some cloud provider might be best fit, while Olevi can provide to that as well. However, when your use case is more demanding, your architecture is difficult or you are in a state of transition between old and new, Olevi could be very good fit.
+This means that Olevi can be fitted in most demanding needs. If your need for authentication provider is very simple and your procedures are standard, choise of a SaaS purchase from some cloud provider might be best fit, while Olevi can provide to that as well. When your use case is more demanding, your architecture is difficult or you are in a state of transition between old and new or from blue to green, Olevi could be very good fit.
 
 ## Local and esteemed provider
 
