@@ -1,0 +1,23 @@
+@startuml idp-attribute-enrichement
+
+object "AuthMethod A" as AuthA
+    AuthA : Authn Method A
+object "AuthMethod B" as AuthB
+    AuthB : Authn Method B
+object "Olevi IdP" as OleviIdP
+    OleviIdP : North: RP for AuthMethods
+    OleviIdP : South: IdP for RP Apps
+object "RP A" as RpA
+    RpA : Appl A
+object "RP b" as RpB
+    RpB : Appl B
+object AttrAPI
+    AttrAPI : Database for user data
+
+OleviIdP -u-|> AuthA  : OIDC
+OleviIdP -u-|> AuthB : OIDC
+OleviIdP -r-|> AttrAPI : Rest
+OleviIdP <|-d- RpA  : OIDC/SAML2
+OleviIdP <|-d- RpB  : OIDC/SAML2
+
+@enduml

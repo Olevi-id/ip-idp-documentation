@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="319px" preserveAspectRatio="none" style="width:482px;height:319px;background:#FFFFFF;" version="1.1" viewBox="0 0 482 319" width="482px" zoomAndPan="magnify"><defs/><g><g id="elem_AuthA"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="124" x="164" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="176.5" y="22.5352">AuthMethod A</text><line style="stroke:#181818;stroke-width:0.5;" x1="165" x2="287" y1="27.4883" y2="27.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="170" y="45.0234">Authn Method A</text></g><g id="elem_AuthB"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="122" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="19.5" y="22.5352">AuthMethod B</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="128" y1="27.4883" y2="27.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="13" y="45.0234">Authn Method B</text></g><g id="elem_OleviIdP"><rect fill="#F1F1F1" height="61.4648" style="stroke:#181818;stroke-width:0.5;" width="196" x="49" y="128.98"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="117.5" y="144.5152">Olevi IdP</text><line style="stroke:#181818;stroke-width:0.5;" x1="50" x2="244" y1="149.4683" y2="149.4683"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="55" y="167.0034">North: RP for AuthMethods</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="55" y="183.4917">South: IdP for RP Apps</text></g><g id="elem_RpA"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="58" x="56" y="267.44"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="69.5" y="282.9752">RP A</text><line style="stroke:#181818;stroke-width:0.5;" x1="57" x2="113" y1="287.9283" y2="287.9283"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="62" y="305.4634">Appl A</text></g><g id="elem_RpB"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="56" x="181" y="267.44"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="194" y="282.9752">RP b</text><line style="stroke:#181818;stroke-width:0.5;" x1="182" x2="236" y1="287.9283" y2="287.9283"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="187" y="305.4634">Appl B</text></g><g id="elem_AttrAPI"><rect fill="#F1F1F1" height="44.9766" style="stroke:#181818;stroke-width:0.5;" width="167" x="308.5" y="137.22"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="368" y="152.7552">AttrAPI</text><line style="stroke:#181818;stroke-width:0.5;" x1="309.5" x2="474.5" y1="157.7083" y2="157.7083"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="314.5" y="175.2434">Database for user data</text></g><!--MD5=[ddda1533e20ae2a48e9b8d0a775c185a]
+reverse link AuthA to OleviIdP--><g id="link_AuthA_OleviIdP"><path codeLine="16" d="M201.63,70.05 C189.99,88.94 176.28,111.18 165.51,128.67 " fill="none" id="AuthA-backto-OleviIdP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="196.15,66.6,212.6,53.24,208.07,73.94,196.15,66.6" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="194" y="95.5484">OIDC</text></g><!--MD5=[162132ee9d58b68128bf11561b3bc297]
+reverse link AuthB to OleviIdP--><g id="link_AuthB_OleviIdP"><path codeLine="17" d="M92.37,70.05 C104.01,88.94 117.72,111.18 128.49,128.67 " fill="none" id="AuthB-backto-OleviIdP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="85.93,73.94,81.4,53.24,97.85,66.6,85.93,73.94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="111" y="95.5484">OIDC</text></g><!--MD5=[31b88fec4dcb887c7eac7d0b0837641f]
+link OleviIdP to AttrAPI--><g id="link_OleviIdP_AttrAPI"><path codeLine="18" d="M245.24,159.71 C259.12,159.71 273.43,159.71 287.42,159.71 " fill="none" id="OleviIdP-to-AttrAPI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="287.32,152.71,307.32,159.71,287.32,166.71,287.32,152.71" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="263.25" y="153.2784">Rest</text></g><!--MD5=[ea8484e49586f2f2a4181ea9997e3630]
+reverse link OleviIdP to RpA--><g id="link_OleviIdP_RpA"><path codeLine="19" d="M90.48,205.95 C87.14,210.51 84.23,215.36 82,220.44 C75.59,235.05 76.71,253.13 79.24,267.04 " fill="none" id="OleviIdP-backto-RpA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="84.54,201.96,103.07,191.67,95,211.27,84.54,201.96" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="83" y="234.0084">OIDC/SAML2</text></g><!--MD5=[4d11e69dfa10c2e81330ca8186e3ec9a]
+reverse link OleviIdP to RpB--><g id="link_OleviIdP_RpB"><path codeLine="20" d="M170.64,209.61 C180.23,229.44 190.81,251.32 198.43,267.07 " fill="none" id="OleviIdP-backto-RpB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="163.94,212.83,161.54,191.77,176.54,206.73,163.94,212.83" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="184" y="234.0084">OIDC/SAML2</text></g><!--MD5=[ba04907b4765d57a7d6db2a7f195f52c]
+@startuml idp-attribute-enrichement
+
+object "AuthMethod A" as AuthA
+    AuthA : Authn Method A
+object "AuthMethod B" as AuthB
+    AuthB : Authn Method B
+object "Olevi IdP" as OleviIdP
+    OleviIdP : North: RP for AuthMethods
+    OleviIdP : South: IdP for RP Apps
+object "RP A" as RpA
+    RpA : Appl A
+object "RP b" as RpB
+    RpB : Appl B
+object AttrAPI
+    AttrAPI : Database for user data
+
+OleviIdP -u-|> AuthA  : OIDC
+OleviIdP -u-|> AuthB : OIDC
+OleviIdP -r-|> AttrAPI : Rest
+OleviIdP <|-d- RpA  : OIDC/SAML2
+OleviIdP <|-d- RpB  : OIDC/SAML2
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 EEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: FI
+--></g></svg>

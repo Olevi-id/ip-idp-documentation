@@ -28,7 +28,7 @@ Also, in worst case scenario where all applications need to be connected to both
 
 ## Authentication Flow Actions
 
-In modern service architectures many such things can be achieved with only authentication and during authentication that have previously needed pre-provisioning or user data synchronisation before user can access a service. Olevi, powered by Shibboleth IdP, can do Actions during authentication flow to fulfill tasks that have traditionally been handled using Identity Management Systems (IdM) or syncing and replication services. There are two main possibilities:
+In modern service architectures many such things that have previously required pre-provisioning or user data synchronisation before user can access the service, can be achieved with only authentication and during authentication. Olevi, powered by Shibboleth IdP, can do Actions during authentication flow to fulfill tasks that have traditionally been handled using Identity Management Systems (IdM) or syncing and replication services. There are two main possibilities:
 
 * authentication flow [Context-Check intecept](https://shibboleth.atlassian.net/wiki/spaces/IDP4/pages/1265631716/ContextCheckInterceptConfiguration) mechanism
 * completely customised authentication flows using [Spring Web Flow (SWF)](https://shibboleth.atlassian.net/wiki/spaces/IDP4/pages/1265631859/GeneralArchitecture#Use-of-Spring-and-Web-Flow)
@@ -36,6 +36,22 @@ In modern service architectures many such things can be achieved with only authe
 Many modern authentication providers provide similar functionality through web-hooks that trigger external functions to add extra functionality. While this can be done using Olevi as well, being a code product, also more complicated functionalities can be programmed to be processed during authentication.
 
 However, as we have stated elswhere in this document, one should still keep tools to what they are purposed to. Olevi is mostly a tool for authentication. It is fine line between overusing your tool for something it is not. While planning authentication flows, deep understanding in overall architectural big picture need to be maintained for not to step over that fine line. Stepping over the line might not harm immediately, but hinder future development or migration to other products.
+
+### Enrhichement of Authentication Data
+
+_Attribute resolvation_ is out of the box action in authentication flow provided by Shibboleth IdP software. It is very powerful tool that Olevi can use to enrich the authentication data with attributes that might not available from authentication method.
+
+For example, Olevi can connect to [FTN](https://www.kyberturvallisuuskeskus.fi/en/our-activities/regulation-and-supervision/electronic-identification) (Finnish Trust Network) broker for authentication, but FTN provides only limited set of attributes for the user. SSN (Social Security Number) is mandatory identifier for a user received from FTN.
+
+However, SSN might not be very useful user detail for many services as traditionally SSN has been protected very carefully in application databases. Applications tend to use separate userIds for users instead of SSN. With customised attribute resolvers Olevi can connect to external user databases to exhange user identifier received from authenticatioon to actual user identifiers in organisation's database. SSN can be exchanged to actual userId or other surrogate identifier used for the users in the application.
+
+In addition to exchanging identifiers, Olevi can fetch extra data from user database.
+
+User databases can be in various sizes and forms. Communication to user database is most simply done using e.g. HTTP/Rest or Olevi can connect to LDAP directory. But being a code product, there is no limitation on how Olevi can connect to external databases.
+
+Also there is no limit in number of external databases Olevi can connect.
+
+![Enrichement of User Attributes](../../../assets/img/idp-attribute-enrichement.svg)
 
 ### Just In Time (JIT) User Provisioning
 
