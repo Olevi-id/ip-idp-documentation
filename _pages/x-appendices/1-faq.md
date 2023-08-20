@@ -146,3 +146,15 @@ Based on your deployment model you either pay for performance directly to your p
 > #### Defition of an instance
 >
 > Olevi instance is singular logical entity of an IdP service that most often equals to unique URL or OIDC _iss_ of the IdP service.
+
+## Do I Pay for Open Source while Purchasing Olevi
+
+No, you don't. Olevi is based on open source software Shibboleth IdP. When you agree to license terms and make an agreement to purchase Olevi, you agree to the price that includes only Olevi Software that Olevi has created. The price you pay for the software ensures the development and continuity of the software and products and services that are based on the software.
+
+While you pay for the software Olevi has created, Olevi gains some profit in doing its business. That profit goes to owners of Olevi company that actually are the developers of the product. When you purhace Olevi software you ensure that the developers can pay for the food and shelter they need to be able to provide their expertiese.
+
+While Olevi gets income as selling the software, there is some expenses to run the company. Olevi is still a young company and income flow is limitied but Olevi has committed to join [Shibboleth Consortium](https://www.shibboleth.net) that provides Shibboleth software. Shibboleth Consortium funds development of Shibboleth Software. The member fee of Shibboleth Software will be an expense to Olevi company.
+
+License fee for Olevi covers the purchase of Olevi Software. However with a small portion the customer of Olevi is also supporting the development of Shibboleth software. 
+
+Despite the fact that Olevi will apply to be a member in Shibboleth Consortium, in addition to buying Olevi license we engourage our clients and our resellers to become members to Shibboleth Consortium directly as themselves as well.
