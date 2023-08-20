@@ -153,7 +153,7 @@ No, you don't. Olevi is based on open source software Shibboleth IdP. When you a
 
 While you pay for the software Olevi has created, Olevi gains some profit in doing its business. That profit goes to owners of Olevi company that actually are the developers of the product. When you purhace Olevi software you ensure that the developers can pay for the food and shelter they need to be able to provide their expertiese.
 
-While Olevi gets income as selling the software, there is some expenses to run the company. Olevi is still a young company and income flow is limitied but Olevi has committed to join [Shibboleth Consortium](https://www.shibboleth.net) that provides Shibboleth software. Shibboleth Consortium funds development of Shibboleth Software. The member fee of Shibboleth Software will be an expense to Olevi company.
+While Olevi gets income by selling the software, there is some expenses to run the company. Olevi is still a young company and income flow is limitied but Olevi has committed to join [Shibboleth Consortium](https://www.shibboleth.net) that provides Shibboleth software. Shibboleth Consortium funds development of Shibboleth Software. The member fee of Shibboleth Software will be an expense to Olevi company.
 
 License fee for Olevi covers the purchase of Olevi Software. However with a small portion the customer of Olevi is also supporting the development of Shibboleth software. 
 
