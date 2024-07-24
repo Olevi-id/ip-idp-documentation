@@ -75,3 +75,11 @@ In addition to continuous charges Olevi need to be put up for you to run. Olevi 
    * user experience (UX)
 
 Setting up an Olevi instance is project work that you define and agree with your reseller or support partner.
+
+## Olevi Value Chain
+
+[Olevi Oy](https://www.olevi.fi) as a company doesn't exist in a vacuum. As explained above, you purchase Olevi from a reseller, not from Olevi directly. Olevi is a technology company in its nature. Other aspects necessary in running an Identity Provider will be provided by other vendors. Olevi provides the software and vendors experienced in other aspects do their best in providing those functions.
+
+Olevi value chain is best described with an illustration.
+
+![Olevi Value Chain](../../../assets/img/olevi-value-chain.svg)
