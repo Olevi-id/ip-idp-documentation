@@ -1,0 +1,30 @@
+@startuml olevi-value-chain
+
+skinparam InterfaceBackgroundColor Yellow
+
+component Dev [
+    Developer] 
+component Olevi
+component Reseller [
+    Reseller]
+component Support [
+    Support]
+component Customer
+
+Dev -r-> Olevi
+Olevi -> Reseller
+Reseller - Customer
+Olevi - Support
+Support -> Reseller
+
+Support -[hidden]d- Reseller
+
+interface "License\nagreement" as License
+Olevi -r- License
+License -> Customer
+
+actor User [
+    End user]
+Customer - User
+
+@enduml
