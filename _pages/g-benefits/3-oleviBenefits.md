@@ -24,6 +24,22 @@ Also it is good to understand that Olevi is mostly a product. While Olevi can pr
 
 This means that Olevi is not the controller of the processing of personal data and does not set the rules of processing. The controller for the personal data that is processed using Olevi is the client organisation that uses Olevi products. That organisation will set the rules on how Olevi can be used in the scope that they are using Olevi products.
 
+## Independent
+
+Although Olevi is based on open source product, the modules and plugins that make Olevi, are written by us. In addition to our own code, we are very familiar in Shibboleth code and follow closely how Shibboleth evolves.
+
+
+You can run Olevi in your own datacenter or one chosen by you. If stretched even further, you can be completely separated and hence independent in global actors, like big cloud service providers.
+
+As we saw in [Crowdstrike incident](https://en.m.wikipedia.org/wiki/2024_CrowdStrike_incident), current IT-economy is very centralised. It is possible to create global effects and great havoc by taking down a major key player in providing digital services.
+
+As a single independent player, Olevi probably is not in focus and priorities of bad actors that seek high return and easy access to their bad actions.
+
+Even if Olevi were in focus of bad actors, you can implement totally different kind of countermeasures than what would be possible with a common cloud provider.
+
+When dealing with Olevi, you can verify the actors and audit the distribution chain. Something that is not possible with big actors.
+
+In our opinion, Olevi is ready for military grade security. At the same time Olevi can fit to a use case where a kiosk sells 2 cent activation codes for a lollipop vending machine that requires authentication of those activation codes.
 
 ## Taxes, Security of Supplies 
 
@@ -72,3 +88,11 @@ This means that Olevi can be fitted in most demanding needs. If your need for au
 ## Local and esteemed provider
 
 Olevi is produced by well known Finnish developers and supported by well known Finnish service providers. Olevi and our reseller speak your languages (Finnish and English), are easy going and easy to deal with. Our resellers and service providers make sure that their employees are very satisfied to their work. They commit only to clients and projects that share values and standards and are sustainable.
+
+We tried very hard to not raise sustainability as a topic, but then it can't be left without a mention. For us sustainabilitity is a part of everyday life in all our actions rather than empty promises.
+
+To say again from another perspective something that was said already: we don`t do business in sanctioned areas. It is not nice, but it need to be said: like many global businesses do.
+
+As you can run Olevi on instance of your choosing, Olevi can be run green. Green is not only how electricity is generated or where the datacenter is located, but how Olevi uses resources. From initial planning we wanted to implement things so that unnecessary computing cycles would be minimised.
+
+One can run parallel instances of Olevi to improve availability. Our customers have chosen differently. We have made it so that Olevi instance is not only stable, but highly recoverable. Platforms very rarely fail, but when they do, Olevi fires up in seconds, not minutes. You don`t really need that redundant extra capacity running in vain. You can scale to fit.
