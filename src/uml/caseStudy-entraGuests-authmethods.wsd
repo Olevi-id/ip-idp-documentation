@@ -1,0 +1,49 @@
+@startuml useCase-entra-guests-authmethods
+allowmixing
+
+entity Employees {
+    Employees authenticate
+    directly using their 
+    Entra IDs
+}
+
+object Olevi {
+    Olevi can handle guest
+    authentication in
+    consolidated manner
+}
+object CRM {
+    Contains agreements and
+    additional details for
+    partner users
+}
+component EntraID
+object PartnerA {
+    Google identity
+}
+object PartnerB {
+    Entra ID
+}
+object PartnerC {
+    Own IdP
+    e.g. Olevi
+}
+object Various {
+    Banking
+    Credentials
+    (FTN)
+}
+
+EntraID <-r- Employees 
+EntraID <-r- Olevi : [Provisioning\npossible]
+CRM <-r- Olevi : auth\ndata\nenrichement
+Olevi <-r- PartnerA
+Olevi <-r- PartnerB
+Olevi <-r- PartnerC
+Olevi <-d- Various
+
+Employees -[hidden]d- PartnerA
+PartnerA -[hidden]d- PartnerB
+PartnerB -[hidden]d- PartnerC
+
+@enduml

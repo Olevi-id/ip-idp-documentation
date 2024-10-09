@@ -1,0 +1,30 @@
+@startuml useCase-entra-guests
+allowmixing
+
+entity Employees {
+    Employees authenticate
+    directly using their 
+    Entra IDs
+}
+
+object Olevi {
+    Olevi can handle guest
+    authentication in
+    consolidated manner
+}
+component EntraID
+component PartnerA
+component PartnerB
+component PartnerC
+
+EntraID <-r- Employees 
+EntraID <-r- Olevi : [Provisioning\npossible]
+Olevi <-r- PartnerA
+Olevi <-r- PartnerB
+Olevi <-r- PartnerC
+
+Employees -[hidden]d- PartnerA
+PartnerA -[hidden]d- PartnerB
+PartnerB -[hidden]d- PartnerC
+
+@enduml
