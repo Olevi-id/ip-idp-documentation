@@ -84,7 +84,7 @@ This is initial and non-exhaustive list of integrations that have been tested us
 * Telia Tunnistus (FTN)
 * Nets eIdent (FTN)
 * [Hightrust](https://www.hightrust.id)
-* [Sinuna](https://sinuna.fi)
+* [Sinuna](https://sinuna.fi) is decomissioned
 
 ### Relying Parties (Cloud, SaaS)
 
@@ -92,6 +92,7 @@ This is initial and non-exhaustive list of integrations that have been tested us
 * Atlassian Access
 * Citrix Netscaler
 * Samltest
+* [Entra ID](https://learn.microsoft.com/en-us/entra/external-id/direct-federation)
 
 ### Relying Party Products
 
