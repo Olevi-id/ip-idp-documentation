@@ -28,7 +28,7 @@ After administrative agreement and Registration are ready, the IdP and your RP c
 
 ![metadata exchange between IdP and RP](../../../assets/img/idp-metadata-exchange.svg)
 
-Metadata exchange happen very similarly whether your client will be using OIDC or SAML. As OIDC is currently the most prominent protocol, only OIDC metadata exhcange is currently described in this document. Please [request](https://www.weare.fi/en/contact-page/) for details of [SAML protocol metadata exchange](https://www.oasis-open.org/committees/download.php/35391/sstc-saml-metadata-errata-2.0-wd-04-diff.pdf) if that is required in your case.
+Metadata exchange happen very similarly whether your client will be using OIDC or SAML. As OIDC is currently the most prominent protocol, only OIDC metadata exhcange is currently described in this document. Please [request](https://www.olevi.fi) for details of [SAML protocol metadata exchange](https://www.oasis-open.org/committees/download.php/35391/sstc-saml-metadata-errata-2.0-wd-04-diff.pdf) if that is required in your case.
 
 ### OIDC Metadata
 
