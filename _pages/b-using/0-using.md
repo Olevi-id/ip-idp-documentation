@@ -40,9 +40,9 @@ You provide the IdP with a set of redirect_uri addresses, which will be stored t
         "scope":"openid phone",
         "redirect_uris": [
         "https://rp.rexample/return",
-        "https://rp.rexample/client/login/oauth2/code/weareStaging",
+        "https://rp.rexample/client/login/oauth2/code/ourStaging",
         "http://localhost:8080/return",
-        "https://localhost:8080/client/login/oauth2/code/weareStaging"
+        "https://localhost:8080/client/login/oauth2/code/ourStaging"
         ],
         "client_id":"your_client_xyz",
         "client_secret":"keep-this-safe-and-confidential",
@@ -54,7 +54,7 @@ Within your client metadata on the IdP _client_id_ and _client_secret_ are set. 
 
 #### IdP metadata on your client RP
 
-IdP instance that you will be using publishes its metadata for your RP to consume so that your RP can form trusted and confidential connection with the IdP. As [defined in the specification](https://openid.net/specs/openid-connect-discovery-1_0.html), you can find the IdP metadata from a well-known endpoint. For example, in WeAre Staging IdP the metadata URL is following:
+IdP instance that you will be using publishes its metadata for your RP to consume so that your RP can form trusted and confidential connection with the IdP. As [defined in the specification](https://openid.net/specs/openid-connect-discovery-1_0.html), you can find the IdP metadata from a well-known endpoint. For example, in our test IdP the metadata URL is following:
 
 [https://test-idp.olevi.fi/.well-known/openid-configuration](https://test-idp.olevi.fi/.well-known/openid-configuration)
 
@@ -85,7 +85,7 @@ The practice we follow is industry standard of how OIDC is used in the Internet.
 
 > ##### TIP
 >
-> WeAre Solutions _test_ environment is set with _changing_ key material.
+> Our _test_ instance is set with _changing_ key material.
 
 ## RP Installation
 
