@@ -16,7 +16,7 @@ As mentioned in chapter [2. Project Structure](../a-general/2-projectStructure.m
 * as a Service (Managed Service Provider - MSP)
 * deploy your own (Library Customer)
 
-Currently, to purchase your instance and/or library license, contact [Sales](https://www.weare.fi/en/contact-page/).
+Currently, to purchase your instance and/or library license, contact [Olevi](https://www.olevi.fi).
 
 ## Registration
 
@@ -56,7 +56,7 @@ Within your client metadata on the IdP _client_id_ and _client_secret_ are set. 
 
 IdP instance that you will be using publishes its metadata for your RP to consume so that your RP can form trusted and confidential connection with the IdP. As [defined in the specification](https://openid.net/specs/openid-connect-discovery-1_0.html), you can find the IdP metadata from a well-known endpoint. For example, in WeAre Staging IdP the metadata URL is following:
 
-[https://weare-staging.idp.youridentityplatform.biz/.well-known/openid-configuration](https://weare-staging.idp.youridentityplatform.biz/.well-known/openid-configuration)
+[https://test-idp.olevi.fi/.well-known/openid-configuration](https://test-idp.olevi.fi/.well-known/openid-configuration)
 
 You will configure this endpoint URL in your RP instance. Most often regarding the metadata exchange, you don't need to do anything else but enter your _client_id_, _client_secret_ and the IdP metadata URL to your RP configuration and you are good to go.
 
