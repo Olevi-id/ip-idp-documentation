@@ -1,0 +1,21 @@
+@startuml useCase-Candour-plan
+
+actor User
+
+User -> App: Start
+App -> Olevi: Initiate authentication
+Olevi -> User: Authenticate with a method providing email
+User -> Olevi: I have email based identity
+Olevi -> MgmForms: Check user is member in pilot group
+Olevi -> User: If not, deny access
+Olevi -> User: If yes, initiate Candour proofing
+Olevi -> Candour: initiate Candour request
+User -> Candour: Do identity proofing
+Candour -> User: Proofing success
+User -> Olevi: I'm back, let's continue
+Olevi -> Candour: Get results
+Olevi -> Olevi: Combine results
+Olevi -> App: Return as authenticated
+App -> User: Continue serving user
+
+@enduml

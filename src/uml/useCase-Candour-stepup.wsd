@@ -1,0 +1,31 @@
+@startuml useCase-Candour-stepup
+
+actor User
+actor HR
+
+User -> App: Start
+App -> Olevi: Initiate authentication
+Olevi -> User: Authenticate with a method providing email
+User -> App: I have email based identity
+App -> User: Browse through open positions
+User -> App: I want to apply
+App -> HR: Please acknowledge email based user for proofing
+HR -> MgmForms: Yes, we approve
+App -> User: Great, let's proof your identity
+User -> Olevi: In need of identity proofing
+Olevi -> Olevi: Use previous session for email
+Olevi -> MgmForms: Check user is member in pilot group
+Olevi -> User: If not, deny access
+Olevi -> User: If yes, initiate Candour proofing
+Olevi -> Candour: initiate Candour request
+User -> Candour: Do identity proofing
+Candour -> User: Proofing success
+User -> Olevi: I'm back, let's continue
+Olevi -> Candour: Get results
+Olevi -> Olevi: Combine results
+Olevi -> App: Return as authenticated
+App -> User: Fill in application
+User -> HR: Here's my application including proofed identity
+HR -> User: Great, let's meet
+
+@enduml
