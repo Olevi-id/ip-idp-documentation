@@ -85,17 +85,20 @@ This is initial and non-exhaustive list of integrations that have been tested us
 * Nets eIdent (FTN)
 * [Hightrust](https://www.hightrust.id)
 * [Sinuna](https://sinuna.fi) is decomissioned
+* [Candour Id](https://candour.fi)
 
 ### Relying Parties (Cloud, SaaS)
 
 * AWS Web Console
 * Atlassian Access
 * Citrix Netscaler
-* Samltest
+* Samltest (deprecated)
+   * Multiple new saml test tools have been made available since
 * [Entra ID](https://learn.microsoft.com/en-us/entra/external-id/direct-federation)
+* [MongoDB Atlas UI](https://www.mongodb.com/docs/atlas/security/manage-federated-auth/)
 
 ### Relying Party Products
 
-* Apache mod\_auth\_openidc
-* Spring Security
-
+* Apache [mod\_auth\_openidc](https://www.mod-auth-openidc.org)
+* [Spring Security](https://docs.spring.io/spring-security/reference/servlet/oauth2/login/index.html)
+* [Envoy Proxy](https://gateway.envoyproxy.io/latest/tasks/security/oidc/)
