@@ -96,6 +96,7 @@ This is initial and non-exhaustive list of integrations that have been tested us
    * Multiple new saml test tools have been made available since
 * [Entra ID](https://learn.microsoft.com/en-us/entra/external-id/direct-federation)
 * [MongoDB Atlas UI](https://www.mongodb.com/docs/atlas/security/manage-federated-auth/)
+* [Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/configure-authentication/generic-oauth/)
 
 ### Relying Party Products
 
