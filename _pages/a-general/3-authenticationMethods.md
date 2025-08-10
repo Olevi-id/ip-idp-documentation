@@ -49,6 +49,10 @@ The module is quite simple and there is not much else to say. Please refer to in
 
 ## ip-idp-lib-webauthn
 
+> #### Deprecated
+>
+> Olevi WebAuthn plugin is deprecated in favor of the official WebAuthn plugin from Shibboleth Consortium. See dodumentation at [Consortium wiki](https://shibboleth.atlassian.net/wiki/spaces/IDPPLUGINS/pages/3878256667)
+
 The WebAuthn module brings hard token authentication to a reach of an application relying on authentication using OIDC or SAML2. [WebAuthn](https://w3c.github.io/webauthn/) is a subset of Fido2 specification held by [FIDO Alliance](https://fidoalliance.org/fido2/).
 
 Fido2 spectrum of specifications cover quite a lot of different aspects of providing secure means of PKI encryption with different kinds of devices and use cases. WebAuthn is a narrower approach to the spectrum providing user a means of proving their being using processes inside their browsers in connection to external token devices or secure enclaves in their devie itself.
