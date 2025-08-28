@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 4. Preferred Architecture
+title: 5. Preferred Architecture
 ---
 In typical setup Olevi IdP is run in [Amazon Web Services Cloud Platform](https://aws.amazon.com). However, as anyone can run the IdP, there are multitude of possibilities to run it. This topic is frequently discussed, so we want to be upfront in what is our plan in providing an IdP instance.
 
