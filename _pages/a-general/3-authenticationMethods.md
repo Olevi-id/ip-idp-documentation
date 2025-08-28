@@ -4,7 +4,7 @@ title: 3. Authentication Methods
 ---
 The implementation contains currently 3 authentication module libraries provided by Olevi. In addition to these, [modules](https://shibboleth.atlassian.net/wiki/spaces/IDP4/pages/1265631601/AuthenticationConfiguration) made available through Shibboleth project can be used as well. Shibboleth project is well document. Please follow previous link regarding basic modules in Shibboleth.
 
-Each library has a separate integration manual for deployers that are available on [request](https://www.weare.fi/en/contact-page/).
+Each library has a separate integration manual for deployers that are available on [request](https://ajanvaraus.olevi.fi).
 
 ## ip-idp-lib-auth-oidcrp
 
@@ -12,7 +12,7 @@ The OIDCRP authentication module provides proxy authentication to an external OI
 * [Google Identity](https://developers.google.com/identity/)
 * [Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/auth-oidc)
 * [FTN Strong Authentication](https://www.kyberturvallisuuskeskus.fi/en/our-activities/regulation-and-supervision/electronic-identification)
-    * [Request](https://www.weare.fi/en/contact-page/) demonstration for connected brokers
+    * [Request](https://ajanvaraus.olevi.fi) demonstration for connected brokers
 
 In brokering authentication, we use terms _northbound_ and _southbound_ derived from SDN routing. We apologise for possibly not quite following use of the original term, so it may need to be clarified.
 

@@ -40,7 +40,7 @@ Above illustration presents two ways to set up the IdP product agreement:
 
 ## Purchasing Olevi
 
-You order your Olevi instance from your reseller. Currently, contact [WeAre Solutions](https://www.weare.fi/en/contact-page/).
+You order your Olevi instance from your reseller.
 
 The cost structure is two layered:
 

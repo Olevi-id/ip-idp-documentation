@@ -16,7 +16,7 @@ It is a deliberate decision that we don't advertise this loudly, but Olevi can a
 
 The workflow to register Olevi client is quite intuitive and we will not provide step-by-step instructions. We expect clients to be experienced in Authentication and Authorisation Infrastructure (AAI). However, Olevi has close connections to support providers that can help in integrations to AAI even if client is not that experienced in the field.
 
-Feel free to [contact](https://www.weare.fi/en/contact-page/) if further advice should be needed.
+Feel free to [contact](https://www.olevi.fi/) if further advice should be needed.
 
 ## Olevi Groups
 
