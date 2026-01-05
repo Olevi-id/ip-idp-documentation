@@ -39,7 +39,7 @@ The OIDC RP authentication method can be configured in different needs by specif
 The email authentication module does two simple things:
 
 1. validate the holder of a given email address
-2. cather the emaill address to be resolved as an attribute
+2. gather the emaill address to be resolved as an attribute
 
 The module has been implemented mainly as an identification method for WebAuthn module, but it can bes used independently as well although we feel that it is a bit awkward in user experience. One can validate their ownership of an email address once, but after that it will be an annoyance.
 
