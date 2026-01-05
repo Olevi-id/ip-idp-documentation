@@ -8,7 +8,7 @@ Subsequent pages contain general information of the Implementation.
 
 In this documentation we try not to repeat detailed information that is already detailed elsewhere. In aspects, where better detailed information can be found in standard specifications or widely trusted party, link to that documentation is included. We try to make links as specific as possible. Where referred documentation facilitates it, exact chapter or another anchor in the text is included. If this is not possible, we try to add exact textual reference in connection to the link.
 
-Internet is dynamic and evolving thing and while semantic web has not really realised, links fail sometimes. If you find broken links, please help us to fix them with [Pull Requests](https://github.com/olevi-id/ip-idp-documentation/pulls) or [contact us](https://www.weare.fi/en/contact-page/).
+Internet is dynamic and evolving thing and while semantic web has not really realised, links fail sometimes. If you find broken links, please help us to fix them with [Pull Requests](https://github.com/olevi-id/ip-idp-documentation/pulls) or [contact us](https://www.olevi.fi).
 
 ## Clarification of Used Terms
 

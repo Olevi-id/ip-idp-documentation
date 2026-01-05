@@ -5,7 +5,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Identity Provider Reference
-email: support@weare.fi
+email: info@olevi.fi
 description: Olevi Identity Provider Implementation Reference Documentation
 author: Kari Laalo
 #baseurl: "/"

@@ -53,7 +53,7 @@ For small user pools Cognito is very probably less expensive than Olevi in produ
 
 ### Non-functional Aspects
 
-Olevi is developed based on open source product ([Shibboleth IdP](https://www.shibboleth.net)). Productalisation of Olevi is Finnish work by Finnish developers. [WeAre Solutions](https://www.weare.fi) providing Olevi service is middle sized Finnish company employing Finnish developers and paying taxes to Finland. WeAre Solutions is proud to co-operate with educational institutions and creating trainee positions where from many developers have grown all the way e.g. to lead their own company or developer team.
+Olevi is developed based on open source product ([Shibboleth IdP](https://www.shibboleth.net)). Productalisation of Olevi is Finnish work by Finnish developers. 
 
 Cusstomers investing in Olevi invest in Finnish innovation and product development. Cognito is run by Amazon, which is United States based company.
 
@@ -79,7 +79,6 @@ and:
 When choosing Cognito, prepare to:
 * know the product
 * agree and order external consultation support from well established and specialiced organisation
-    * We recommend to [contact WeAre Solutions](https://www.weare.fi/en/aws-select-consulting-partner/)
 * have a budget to adapt to special needs
     * connectors to sync user pools from external user directories
     * adaption of federated authentication to Cognito feature set
@@ -125,11 +124,11 @@ No, it is not. To make your power bank green, there are much more to consider th
 
 Olevi is being used as part of FTN and it is being used to connect to FTN. In technical terms Olevi provides necessary features for an organisation to be compliant provider or client in FTN.
 
-As regulations change and if there is demand from customers, Olevi will implement new features to support changing regulation. Currently and quite often the support is already built in. If in doubt, contact your [support partner](https://www.weare.fi/en/contact-page/) for details.
+As regulations change and if there is demand from customers, Olevi will implement new features to support changing regulation. Currently and quite often the support is already built in. If in doubt, [contact](https://www.olevi.fi/) for details.
 
 ### Could we use Olevi technologies to provide trust services
 
-Yes you can, if your organisation has the means and capabilities to provide those services in general. If you are interested in using Olevi as part of your services, contact [sales](https://www.weare.fi/en/contact-page/).
+Yes you can, if your organisation has the means and capabilities to provide those services in general. If you are interested in using Olevi as part of your services, [contact](https://www.olevi.fi/).
 
 ## What is an Instance?
 
